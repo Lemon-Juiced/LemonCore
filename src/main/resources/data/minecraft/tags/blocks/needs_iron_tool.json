@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "lemon_core:lead_block",
+    "lemon_core:nickel_block",
+    "lemon_core:osmium_block",
+    "lemon_core:silver_block",
+    "lemon_core:uranium_block",
+    "lemon_core:brass_block",
+    "lemon_core:bronze_block",
+    "lemon_core:constantan_block",
+    "lemon_core:electrum_block",
+    "lemon_core:invar_block",
+    "lemon_core:steel_block",
+    "lemon_core:ruby_block",
+    "lemon_core:sapphire_block"
+  ]
+}

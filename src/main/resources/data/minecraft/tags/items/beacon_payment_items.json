@@ -1,0 +1,21 @@
+{
+  "values": [
+    "lemon_core:aluminum_ingot",
+    "lemon_core:cobalt_ingot",
+    "lemon_core:lead_ingot",
+    "lemon_core:nickel_ingot",
+    "lemon_core:osmium_ingot",
+    "lemon_core:silver_ingot",
+    "lemon_core:tin_ingot",
+    "lemon_core:uranium_ingot",
+    "lemon_core:zinc_ingot",
+    "lemon_core:brass_ingot",
+    "lemon_core:bronze_ingot",
+    "lemon_core:constantan_ingot",
+    "lemon_core:electrum_ingot",
+    "lemon_core:invar_ingot",
+    "lemon_core:steel_ingot",
+    "lemon_core:ruby",
+    "lemon_core:sapphire"
+  ]
+}

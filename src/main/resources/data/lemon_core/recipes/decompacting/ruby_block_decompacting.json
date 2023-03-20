@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:blocks/ruby"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:ruby",
+        "count": 9
+    }
+}

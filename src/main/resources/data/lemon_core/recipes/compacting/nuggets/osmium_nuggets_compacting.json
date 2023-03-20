@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/osmium"
+    }
+  },
+  "result": {
+    "item": "lemon_core:osmium_ingot",
+    "count": 1
+  }
+}

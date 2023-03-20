@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lemon_core:aluminum_block",
+    "lemon_core:tin_block",
+    "lemon_core:zinc_block"
+  ]
+}
