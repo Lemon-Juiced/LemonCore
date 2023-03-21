@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:fragments/silicon"
+    }
+  },
+  "result": {
+    "item": "lemon_core:silicon",
+    "count": 1
+  }
+}

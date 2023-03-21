@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/sapphire"
+    }
+  },
+  "result": {
+    "item": "lemon_core:sapphire_block",
+    "count": 1
+  }
+}

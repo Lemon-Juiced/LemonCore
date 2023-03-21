@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lemon_core:obsidian_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft_obsidian",
+    "count": 1
+  }
+}

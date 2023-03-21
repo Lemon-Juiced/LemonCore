@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:fragments/amethyst",
+    "#forge:fragments/diamond",
+    "#forge:fragments/emerald",
+    "#forge:fragments/lapis_lazuli",
+    "#forge:fragments/nether_quartz",
+    "#forge:fragments/ruby",
+    "#forge:fragments/sapphire",
+    "#forge:fragments/silicon"
+  ]
+}

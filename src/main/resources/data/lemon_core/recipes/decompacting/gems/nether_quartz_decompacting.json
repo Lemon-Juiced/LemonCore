@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:quartz"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:nether_quartz_fragment",
+        "count": 9
+    }
+}

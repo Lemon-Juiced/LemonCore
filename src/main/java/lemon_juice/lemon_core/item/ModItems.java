@@ -12,8 +12,20 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, LemonCore.MOD_ID);
 
     /***** Gems *****/
+    /*** Gems ***/
+    // Gems
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILICON  = ITEMS.register("silicon", () -> new Item(new Item.Properties()));
+    // Fragments
+    public static final RegistryObject<Item> RUBY_FRAGMENT = ITEMS.register("ruby_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_FRAGMENT  = ITEMS.register("sapphire_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILICON_FRAGMENT  = ITEMS.register("silicon_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_FRAGMENT  = ITEMS.register("amethyst_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_FRAGMENT  = ITEMS.register("diamond_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_FRAGMENT  = ITEMS.register("emerald_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT  = ITEMS.register("lapis_lazuli_fragment", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT  = ITEMS.register("nether_quartz_fragment", () -> new Item(new Item.Properties()));
 
     /***** Metals ****/
     /*** Ingots ***/
@@ -56,6 +68,13 @@ public class ModItems {
     // Vanilla Additions
     public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new FireproofItem(new Item.Properties()));
+
+    /***** Other ******/
+    public static final RegistryObject<Item> GRAIN_OF_GLOWSTONE_DUST = ITEMS.register("grain_of_glowstone_dust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAIN_OF_REDSTONE_DUST = ITEMS.register("grain_of_redstone_dust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OBSIDIAN_SHARD = ITEMS.register("obsidian_shard", () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:nuggets/sapphire"
+      "tag": "forge:grains/redstone"
     }
   },
   "result": {
-    "item": "lemon_core:sapphire_block",
+    "item": "minecraft:redstone",
     "count": 1
   }
 }

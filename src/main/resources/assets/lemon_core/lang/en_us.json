@@ -1,6 +1,20 @@
 {
   "item.lemon_core.ruby": "Ruby",
   "item.lemon_core.sapphire": "Sapphire",
+  "item.lemon_core.silicon": "Silicon",
+
+  "item.lemon_core.ruby_fragment": "Ruby Fragment",
+  "item.lemon_core.sapphire_fragment": "Sapphire Fragment",
+  "item.lemon_core.silicon_fragment": "Silicon Fragment",
+  "item.lemon_core.amethyst_fragment": "Amethyst Fragment",
+  "item.lemon_core.diamond_fragment": "Diamond Fragment",
+  "item.lemon_core.emerald_fragment": "Emerald Fragment",
+  "item.lemon_core.lapis_lazuli_fragment": "Lapis Lazuli Fragment",
+  "item.lemon_core.nether_quartz_fragment": "Nether Quartz Fragment",
+
+  "item.lemon_core.grain_of_redstone_dust": "Grain of Redstone Dust",
+  "item.lemon_core.grain_of_glowstone_dust": "Grain of Glowstone Dust",
+  "item.lemon_core.obsidian_shard": "Obsidian Shard",
 
   "item.lemon_core.aluminum_ingot": "Aluminum Ingot",
   "item.lemon_core.cobalt_ingot": "Cobalt Ingot",
@@ -36,8 +50,9 @@
   "item.lemon_core.invar_nugget": "Invar Nugget",
   "item.lemon_core.steel_nugget": "Steel Nugget",
 
-  "block.lemon_core.ruby_block": "Ruby",
-  "block.lemon_core.sapphire_block": "Sapphire",
+  "block.lemon_core.ruby_block": "Ruby Block",
+  "block.lemon_core.sapphire_block": "Sapphire Block",
+  "block.lemon_core.silicon_block": "Silicon Block",
 
   "block.lemon_core.aluminum_block": "Block of Aluminum",
   "block.lemon_core.cobalt_block": "Block of Cobalt",

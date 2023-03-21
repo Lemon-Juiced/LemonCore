@@ -56,6 +56,22 @@ public class CreativeTab {
                     // Gems
                     output.accept(new ItemStack(ModItems.RUBY.get()));
                     output.accept(new ItemStack(ModItems.SAPPHIRE.get()));
+                    output.accept(new ItemStack(ModItems.SILICON.get()));
+
+                    // Fragments
+                    output.accept(new ItemStack(ModItems.RUBY_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.SAPPHIRE_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.SILICON_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.AMETHYST_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.DIAMOND_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.EMERALD_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.LAPIS_LAZULI_FRAGMENT.get()));
+                    output.accept(new ItemStack(ModItems.NETHER_QUARTZ_FRAGMENT.get()));
+
+                    // Other
+                    output.accept(new ItemStack(ModItems.GRAIN_OF_GLOWSTONE_DUST.get()));
+                    output.accept(new ItemStack(ModItems.GRAIN_OF_REDSTONE_DUST.get()));
+                    output.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));
 
                     /* Blocks */
                     // Metals
@@ -78,6 +94,7 @@ public class CreativeTab {
                     // Gems
                     output.accept(new ItemStack(ModBlocks.RUBY_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get()));
+                    output.accept(new ItemStack(ModBlocks.SILICON_BLOCK.get()));
                 }));
     }
 
