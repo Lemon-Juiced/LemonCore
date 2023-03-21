@@ -54,11 +54,13 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModItems.NETHERITE_NUGGET.get()));
 
                     // Gems
+                    output.accept(new ItemStack(ModItems.PERIDOT.get()));
                     output.accept(new ItemStack(ModItems.RUBY.get()));
                     output.accept(new ItemStack(ModItems.SAPPHIRE.get()));
                     output.accept(new ItemStack(ModItems.SILICON.get()));
 
                     // Fragments
+                    output.accept(new ItemStack(ModItems.PERIDOT_FRAGMENT.get()));
                     output.accept(new ItemStack(ModItems.RUBY_FRAGMENT.get()));
                     output.accept(new ItemStack(ModItems.SAPPHIRE_FRAGMENT.get()));
                     output.accept(new ItemStack(ModItems.SILICON_FRAGMENT.get()));
@@ -92,6 +94,7 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModBlocks.STEEL_BLOCK.get()));
 
                     // Gems
+                    output.accept(new ItemStack(ModBlocks.PERIDOT_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.RUBY_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.SILICON_BLOCK.get()));

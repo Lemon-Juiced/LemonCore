@@ -14,10 +14,12 @@ public class ModItems {
     /***** Gems *****/
     /*** Gems ***/
     // Gems
+    public static final RegistryObject<Item> PERIDOT = ITEMS.register("peridot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILICON  = ITEMS.register("silicon", () -> new Item(new Item.Properties()));
     // Fragments
+    public static final RegistryObject<Item> PERIDOT_FRAGMENT = ITEMS.register("peridot_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBY_FRAGMENT = ITEMS.register("ruby_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_FRAGMENT  = ITEMS.register("sapphire_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILICON_FRAGMENT  = ITEMS.register("silicon_fragment", () -> new Item(new Item.Properties()));
