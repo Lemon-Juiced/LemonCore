@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    },
+    {
+      "item": "lemon_core:tiny_charcoal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  }
+}

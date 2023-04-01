@@ -17,6 +17,8 @@
   "item.lemon_core.grain_of_redstone_dust": "Grain of Redstone Dust",
   "item.lemon_core.grain_of_glowstone_dust": "Grain of Glowstone Dust",
   "item.lemon_core.obsidian_shard": "Obsidian Shard",
+  "item.lemon_core.tiny_charcoal": "Tiny Charcoal",
+  "item.lemon_core.tiny_coal": "Tiny Coal",
 
   "item.lemon_core.aluminum_ingot": "Aluminum Ingot",
   "item.lemon_core.cobalt_ingot": "Cobalt Ingot",
@@ -51,6 +53,8 @@
   "item.lemon_core.electrum_nugget": "Electrum Nugget",
   "item.lemon_core.invar_nugget": "Invar Nugget",
   "item.lemon_core.steel_nugget": "Steel Nugget",
+
+  "abstract_tiny_coal.tooltip": "Smelts One Item",
 
   "block.lemon_core.peridot_block": "Peridot Block",
   "block.lemon_core.ruby_block": "Ruby Block",

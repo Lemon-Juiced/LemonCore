@@ -74,6 +74,8 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModItems.GRAIN_OF_GLOWSTONE_DUST.get()));
                     output.accept(new ItemStack(ModItems.GRAIN_OF_REDSTONE_DUST.get()));
                     output.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));
+                    output.accept(new ItemStack(ModItems.TINY_CHARCOAL.get()));
+                    output.accept(new ItemStack(ModItems.TINY_COAL.get()));
 
                     /* Blocks */
                     // Metals
