@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:gems/peridot"
+      "tag": "forge:fragments/peridot"
     }
   },
   "result": {
-    "item": "lemon_core:peridot_block",
+    "item": "lemon_core:peridot",
     "count": 1
   }
 }

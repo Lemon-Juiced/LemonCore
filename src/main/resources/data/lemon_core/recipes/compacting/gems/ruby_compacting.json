@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:fragments/ruby"
+      "tag": "forge:gems/ruby"
     }
   },
   "result": {
-    "item": "lemon_core:ruby",
+    "item": "lemon_core:ruby_block",
     "count": 1
   }
 }
