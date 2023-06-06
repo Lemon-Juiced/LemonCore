@@ -5,10 +5,7 @@ import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
 import lemon_juice.lemon_core.block.custom.MetalBlock;
 import lemon_juice.lemon_core.item.ModItems;
-import lemon_juice.lemon_core.item.custom.FragmentItem;
-import lemon_juice.lemon_core.item.custom.GemItem;
-import lemon_juice.lemon_core.item.custom.IngotItem;
-import lemon_juice.lemon_core.item.custom.NuggetItem;
+import lemon_juice.lemon_core.item.custom.*;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -61,6 +58,11 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));
                     output.accept(new ItemStack(ModItems.TINY_CHARCOAL.get()));
                     output.accept(new ItemStack(ModItems.TINY_COAL.get()));
+
+                    // Ore Crushing Hammers
+                    for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) {
+                        if(item.get() instanceof OreCrushingHammerItem) output.accept(item.get());
+                    }
 
                     /* Blocks */
                     // Ingots

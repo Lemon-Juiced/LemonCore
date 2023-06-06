@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lemon_core:wooden_ore_crushing_hammer",
+    "lemon_core:stone_ore_crushing_hammer",
+    "lemon_core:iron_ore_crushing_hammer",
+    "lemon_core:golden_ore_crushing_hammer",
+    "lemon_core:diamond_ore_crushing_hammer",
+    "lemon_core:netherite_ore_crushing_hammer"
+  ]
+}

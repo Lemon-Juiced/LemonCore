@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lemon_core:item/iron_ore_crushing_hammer"
+  }
+}
