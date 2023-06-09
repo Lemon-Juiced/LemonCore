@@ -1,7 +1,7 @@
 package lemon_juice.lemon_core;
 
 import lemon_juice.lemon_core.block.ModBlocks;
-import lemon_juice.lemon_core.creativetab.CreativeTab;
+import lemon_juice.lemon_core.creativetab.ModCreativeTab;
 import lemon_juice.lemon_core.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,7 +24,8 @@ public class LemonCore {
         ModBlocks.register(modEventBus);
 
         // Register Creative Tab
-        modEventBus.addListener(CreativeTab::registerTabs);
+        ModCreativeTab.register(modEventBus);
+        modEventBus.addListener(ModCreativeTab::registerTabs);
 
         modEventBus.addListener(this::commonSetup);
 
