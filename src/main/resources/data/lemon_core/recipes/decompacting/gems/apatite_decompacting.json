@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:gems/apatite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:apatite_fragment",
+        "count": 9
+    }
+}

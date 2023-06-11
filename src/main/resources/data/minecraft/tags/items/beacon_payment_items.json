@@ -16,6 +16,7 @@
     "lemon_core:electrum_ingot",
     "lemon_core:invar_ingot",
     "lemon_core:steel_ingot",
+    "lemon_core:apatite",
     "lemon_core:peridot",
     "lemon_core:ruby",
     "lemon_core:sapphire"

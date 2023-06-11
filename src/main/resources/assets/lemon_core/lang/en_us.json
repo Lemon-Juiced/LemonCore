@@ -1,9 +1,11 @@
 {
+  "item.lemon_core.apatite": "Apatite",
   "item.lemon_core.peridot": "Peridot",
   "item.lemon_core.ruby": "Ruby",
   "item.lemon_core.sapphire": "Sapphire",
   "item.lemon_core.silicon": "Silicon",
 
+  "item.lemon_core.apatite_fragment": "Apatite Fragment",
   "item.lemon_core.peridot_fragment": "Peridot Fragment",
   "item.lemon_core.ruby_fragment": "Ruby Fragment",
   "item.lemon_core.sapphire_fragment": "Sapphire Fragment",
@@ -65,10 +67,11 @@
 
   "abstract_tiny_coal.tooltip": "Smelts One Item",
 
-  "block.lemon_core.peridot_block": "Peridot Block",
-  "block.lemon_core.ruby_block": "Ruby Block",
-  "block.lemon_core.sapphire_block": "Sapphire Block",
-  "block.lemon_core.silicon_block": "Silicon Block",
+  "block.lemon_core.apatite_block": "Block of Apatite",
+  "block.lemon_core.peridot_block": "Block Peridot",
+  "block.lemon_core.ruby_block": "Block Ruby",
+  "block.lemon_core.sapphire_block": "Block Sapphire",
+  "block.lemon_core.silicon_block": "Block Silicon",
 
   "block.lemon_core.aluminum_block": "Block of Aluminum",
   "block.lemon_core.cobalt_block": "Block of Cobalt",
