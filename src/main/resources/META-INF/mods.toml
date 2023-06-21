@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[46,)"
 license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="lemon_core"
-version="1.20.1-1.0.12"
+version="1.20.-1.0.12"
 displayName="Lemon Core"
 logoFile="lemon_core.png"
 credits="Lemon_Juiced"
@@ -17,12 +17,12 @@ A set of core items and tagged materials for use in my other mods and cross-play
 [[dependencies.lemon_core]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="[46,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.lemon_core]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="[1.20,1.21)"
     ordering="NONE"
     side="BOTH"
