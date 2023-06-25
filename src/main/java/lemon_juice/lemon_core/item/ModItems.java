@@ -68,6 +68,7 @@ public class ModItems {
         // Run resourceRegister on all Gems
         resourceRegister.registerGemGroup("apatite");
         resourceRegister.registerGemGroup("peridot");
+        resourceRegister.registerGemGroup("rose_quartz");
         resourceRegister.registerGemGroup("ruby");
         resourceRegister.registerGemGroup("sapphire");
         resourceRegister.registerGemGroup("silicon");

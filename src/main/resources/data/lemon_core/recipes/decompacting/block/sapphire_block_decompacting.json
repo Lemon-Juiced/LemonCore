@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:blocks/sapphire"
+            "tag": "forge:storage_blocks/sapphire"
         }
     ],
     "result": {

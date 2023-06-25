@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:storage_blocks/silicon"
+            "tag": "forge:gems/rose_quartz"
         }
     ],
     "result": {
-        "item": "lemon_core:silicon",
+        "item": "lemon_core:rose_quartz_fragment",
         "count": 9
     }
 }

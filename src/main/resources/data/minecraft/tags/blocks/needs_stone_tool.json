@@ -5,6 +5,7 @@
     "lemon_core:manganese_block",
     "lemon_core:tin_block",
     "lemon_core:zinc_block",
-    "lemon_core:apatite_block"
+    "lemon_core:apatite_block",
+    "lemon_core:rose_quartz_block"
   ]
 }

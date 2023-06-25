@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:fragments/ruby"
+      "tag": "forge:fragments/lapis_lazuli"
     }
   },
   "result": {
-    "item": "lemon_core:ruby",
+    "item": "minecraft:lapis_lazuli",
     "count": 1
   }
 }

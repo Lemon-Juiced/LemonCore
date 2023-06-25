@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:fragments/ruby"
+      "tag": "forge:gems/rose_quartz"
     }
   },
   "result": {
-    "item": "lemon_core:ruby",
+    "item": "lemon_core:rose_quartz_block",
     "count": 1
   }
 }
