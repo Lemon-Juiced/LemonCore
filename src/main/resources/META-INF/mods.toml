@@ -4,11 +4,10 @@ license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="lemon_core"
-version="1.20.1-1.0.13"
+version="1.20.1-1.0.14"
 displayName="Lemon Core"
 logoFile="lemon_core.png"
-credits="Lemon_Juiced"
-authors="Lemon_Juiced"
+authors="Lemon_Juiced & Scalar Team"
 
 description='''
 A set of core items and tagged materials for use in my other mods and cross-play.

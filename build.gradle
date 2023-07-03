@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.20.1-1.0.13'
+version = '1.20.1-1.0.14'
 group = 'lemon_juice.lemon_core' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'lemon_core'
 
@@ -124,7 +124,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.20.1-47.0.1'
+    minecraft 'net.minecraftforge:forge:1.20.1-47.0.35'
 
     // JEI
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.0.0.15")
