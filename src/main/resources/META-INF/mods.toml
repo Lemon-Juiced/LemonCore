@@ -4,7 +4,7 @@ license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="lemon_core"
-version="1.20.1-1.0.14"
+version="1.20.1-1.0.15"
 displayName="Lemon Core"
 logoFile="lemon_core.png"
 authors="Lemon_Juiced & Scalar Team"

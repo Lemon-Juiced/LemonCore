@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.20.1-1.0.14'
+version = '1.20.1-1.0.15'
 group = 'lemon_juice.lemon_core' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'lemon_core'
 

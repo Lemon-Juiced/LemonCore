@@ -1,34 +1,16 @@
-package lemon_juice.lemon_core.item;
+package lemon_juice.lemon_core.register;
 
 import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
-import lemon_juice.lemon_core.block.custom.MetalBlock;
+import lemon_juice.lemon_core.item.ModItems;
 import lemon_juice.lemon_core.item.custom.FragmentItem;
 import lemon_juice.lemon_core.item.custom.GemItem;
-import lemon_juice.lemon_core.item.custom.IngotItem;
-import lemon_juice.lemon_core.item.custom.NuggetItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
-/**
- * Registers a group of items for a given resource
- */
-public class ResourceRegister {
-
-    /**
-     * Registers the group of resources related to a metal
-     * Includes: Ingot, Nugget, and Block
-     *
-     * @param name The name of the metal
-     */
-    public void registerMetalGroup(String name){
-        ModItems.ITEMS.register(name + "_ingot", () -> new IngotItem(new Item.Properties()));
-        ModItems.ITEMS.register(name + "_nugget", () -> new NuggetItem(new Item.Properties(), false));
-        ModBlocks.registerBlock(name + "_block", () -> new MetalBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
-    }
-
+public class GemResourceRegister {
     /**
      * Registers the group of resources related to a gem
      * Includes: Gem, Fragment, and Block

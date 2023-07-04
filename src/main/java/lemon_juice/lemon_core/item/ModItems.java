@@ -4,6 +4,8 @@ import lemon_juice.lemon_core.LemonCore;
 import lemon_juice.lemon_core.item.custom.FragmentItem;
 import lemon_juice.lemon_core.item.custom.NuggetItem;
 import lemon_juice.lemon_core.item.custom.OreCrushingHammerItem;
+import lemon_juice.lemon_core.register.GemResourceRegister;
+import lemon_juice.lemon_core.register.MetalResourceRegister;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -44,34 +46,36 @@ public class ModItems {
 
 
     public static void register(IEventBus eventBus){
-        // Create a ResourceRegister
-        ResourceRegister resourceRegister = new ResourceRegister();
+        // Create a ResourceRegisters
+        GemResourceRegister gemResourceRegister = new GemResourceRegister();
+        MetalResourceRegister metalResourceRegister = new MetalResourceRegister();
 
         // Run resourceRegister on all Metals
-        resourceRegister.registerMetalGroup("aluminum");
-        resourceRegister.registerMetalGroup("cobalt");
-        resourceRegister.registerMetalGroup("lead");
-        resourceRegister.registerMetalGroup("manganese");
-        resourceRegister.registerMetalGroup("nickel");
-        resourceRegister.registerMetalGroup("osmium");
-        resourceRegister.registerMetalGroup("silver");
-        resourceRegister.registerMetalGroup("tin");
-        resourceRegister.registerMetalGroup("uranium");
-        resourceRegister.registerMetalGroup("zinc");
-        resourceRegister.registerMetalGroup("brass");
-        resourceRegister.registerMetalGroup("bronze");
-        resourceRegister.registerMetalGroup("constantan");
-        resourceRegister.registerMetalGroup("electrum");
-        resourceRegister.registerMetalGroup("invar");
-        resourceRegister.registerMetalGroup("steel");
+        metalResourceRegister.registerMetalGroup("aluminum");
+        metalResourceRegister.registerMetalGroup("cobalt");
+        metalResourceRegister.registerMetalGroup("lead");
+        metalResourceRegister.registerMetalGroup("manganese");
+        metalResourceRegister.registerMetalGroup("necronite", true);
+        metalResourceRegister.registerMetalGroup("nickel");
+        metalResourceRegister.registerMetalGroup("osmium");
+        metalResourceRegister.registerMetalGroup("silver");
+        metalResourceRegister.registerMetalGroup("tin");
+        metalResourceRegister.registerMetalGroup("uranium");
+        metalResourceRegister.registerMetalGroup("zinc");
+        metalResourceRegister.registerMetalGroup("brass");
+        metalResourceRegister.registerMetalGroup("bronze");
+        metalResourceRegister.registerMetalGroup("constantan");
+        metalResourceRegister.registerMetalGroup("electrum");
+        metalResourceRegister.registerMetalGroup("invar");
+        metalResourceRegister.registerMetalGroup("steel");
 
         // Run resourceRegister on all Gems
-        resourceRegister.registerGemGroup("apatite");
-        resourceRegister.registerGemGroup("peridot");
-        resourceRegister.registerGemGroup("rose_quartz");
-        resourceRegister.registerGemGroup("ruby");
-        resourceRegister.registerGemGroup("sapphire");
-        resourceRegister.registerGemGroup("silicon");
+        gemResourceRegister.registerGemGroup("apatite");
+        gemResourceRegister.registerGemGroup("peridot");
+        gemResourceRegister.registerGemGroup("rose_quartz");
+        gemResourceRegister.registerGemGroup("ruby");
+        gemResourceRegister.registerGemGroup("sapphire");
+        gemResourceRegister.registerGemGroup("silicon");
 
         // Register Everything Not Done Through ResourceRegister
         ITEMS.register(eventBus);

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/necronite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:necronite_nugget",
+        "count": 9
+    }
+}
