@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:fragments/certus_quartz"
+    }
+  },
+  "result": {
+    "item": "lemon_core:certus_quartz",
+    "count": 1
+  }
+}

@@ -3,6 +3,7 @@
   "values": [
     "#forge:fragments/amethyst",
     "#forge:fragments/apatite",
+    "#forge:fragments/certus_quartz",
     "#forge:fragments/diamond",
     "#forge:fragments/emerald",
     "#forge:fragments/lapis_lazuli",
@@ -11,6 +12,7 @@
     "#forge:fragments/rose_quartz",
     "#forge:fragments/ruby",
     "#forge:fragments/sapphire",
-    "#forge:fragments/silicon"
+    "#forge:fragments/silicon",
+    "#forge:fragments/sulfur"
   ]
 }

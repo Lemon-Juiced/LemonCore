@@ -50,12 +50,11 @@ public class ModItems {
         GemResourceRegister gemResourceRegister = new GemResourceRegister();
         MetalResourceRegister metalResourceRegister = new MetalResourceRegister();
 
-        // Run resourceRegister on all Metals
+        // Run metalResourceRegister on all Metals
         metalResourceRegister.registerMetalGroup("aluminum");
         metalResourceRegister.registerMetalGroup("cobalt");
         metalResourceRegister.registerMetalGroup("lead");
         metalResourceRegister.registerMetalGroup("manganese");
-        metalResourceRegister.registerMetalGroup("necronite", true);
         metalResourceRegister.registerMetalGroup("nickel");
         metalResourceRegister.registerMetalGroup("osmium");
         metalResourceRegister.registerMetalGroup("silver");
@@ -67,15 +66,18 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("constantan");
         metalResourceRegister.registerMetalGroup("electrum");
         metalResourceRegister.registerMetalGroup("invar");
+        metalResourceRegister.registerMetalGroup("necronite", true);
         metalResourceRegister.registerMetalGroup("steel");
 
-        // Run resourceRegister on all Gems
+        // Run gemResourceRegister on all Gems
         gemResourceRegister.registerGemGroup("apatite");
+        gemResourceRegister.registerGemGroup("certus_quartz");
         gemResourceRegister.registerGemGroup("peridot");
         gemResourceRegister.registerGemGroup("rose_quartz");
         gemResourceRegister.registerGemGroup("ruby");
         gemResourceRegister.registerGemGroup("sapphire");
         gemResourceRegister.registerGemGroup("silicon");
+        gemResourceRegister.registerGemGroup("sulfur");
 
         // Register Everything Not Done Through ResourceRegister
         ITEMS.register(eventBus);

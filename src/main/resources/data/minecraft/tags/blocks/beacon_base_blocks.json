@@ -5,6 +5,7 @@
     "lemon_core:apatite_block",
     "lemon_core:brass_block",
     "lemon_core:bronze_block",
+    "lemon_core:certus_quartz_block",
     "lemon_core:cobalt_block",
     "lemon_core:constantan_block",
     "lemon_core:electrum_block",
@@ -18,8 +19,10 @@
     "lemon_core:rose_quartz_block",
     "lemon_core:ruby_block",
     "lemon_core:sapphire_block",
+    "lemon_core:silicon_block",
     "lemon_core:silver_block",
     "lemon_core:steel_block",
+    "lemon_core:sulfur_block",
     "lemon_core:tin_block",
     "lemon_core:uranium_block",
     "lemon_core:zinc_block"

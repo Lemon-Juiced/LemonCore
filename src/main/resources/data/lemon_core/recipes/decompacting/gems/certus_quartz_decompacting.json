@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "lemon_core:certus_quartz_shard"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:certus_quartz_fragment",
+        "count": 9
+    }
+}

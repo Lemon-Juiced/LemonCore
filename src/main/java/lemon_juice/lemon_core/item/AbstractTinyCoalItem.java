@@ -24,6 +24,6 @@ public class AbstractTinyCoalItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.translatable("abstract_tiny_coal.tooltip"));
+        components.add(Component.translatable("lemon_core.abstract_tiny_coal.tooltip"));
     }
 }
