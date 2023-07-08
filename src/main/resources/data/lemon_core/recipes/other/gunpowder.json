@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/sulfur"
+    },
+    {
+      "tag": "forge:gems/sulfur"
+    },
+    {
+      "tag": "forge:gems/sulfur"
+    },
+    {
+      "tag": "forge:gems/sulfur"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 1
+  }
+}

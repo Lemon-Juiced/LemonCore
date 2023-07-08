@@ -1,15 +1,14 @@
-package lemon_juice.lemon_core.item.custom;
+package lemon_juice.lemon_core.item.custom.metal;
 
 import net.minecraft.world.item.Item;
 
 /**
- * This Item represents a Nugget in Game (Only For Use In Sorting)
+ * This Item represents an Ingot in Game (Only For Use In Sorting)
  */
-public class NuggetItem extends Item {
-
+public class IngotItem extends Item {
     boolean isFireproof = false;
 
-    public NuggetItem(Properties properties, boolean isFireproof) {
+    public IngotItem(Properties properties, boolean isFireproof) {
         super(properties);
         this.isFireproof = isFireproof;
     }

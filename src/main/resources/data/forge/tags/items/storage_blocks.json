@@ -20,6 +20,7 @@
     "#forge:storage_blocks/steel",
     "#forge:storage_blocks/apatite",
     "#forge:storage_blocks/certus_quartz",
+    "#forge:storage_blocks/charged_certus_quartz",
     "#forge:storage_blocks/peridot",
     "#forge:storage_blocks/rose_quartz",
     "#forge:storage_blocks/ruby",

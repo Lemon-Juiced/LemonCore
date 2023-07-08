@@ -1,8 +1,8 @@
 package lemon_juice.lemon_core.item;
 
 import lemon_juice.lemon_core.LemonCore;
-import lemon_juice.lemon_core.item.custom.FragmentItem;
-import lemon_juice.lemon_core.item.custom.NuggetItem;
+import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
+import lemon_juice.lemon_core.item.custom.metal.NuggetItem;
 import lemon_juice.lemon_core.item.custom.OreCrushingHammerItem;
 import lemon_juice.lemon_core.register.GemResourceRegister;
 import lemon_juice.lemon_core.register.MetalResourceRegister;
@@ -18,11 +18,11 @@ public class ModItems {
     /***** Gems *****/
     /*** Gems ***/
     // Vanilla Additions
-    public static final RegistryObject<Item> AMETHYST_FRAGMENT  = ITEMS.register("amethyst_fragment", () -> new FragmentItem(new Item.Properties()));
-    public static final RegistryObject<Item> DIAMOND_FRAGMENT  = ITEMS.register("diamond_fragment", () -> new FragmentItem(new Item.Properties()));
-    public static final RegistryObject<Item> EMERALD_FRAGMENT  = ITEMS.register("emerald_fragment", () -> new FragmentItem(new Item.Properties()));
-    public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT  = ITEMS.register("lapis_lazuli_fragment", () -> new FragmentItem(new Item.Properties()));
-    public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT  = ITEMS.register("nether_quartz_fragment", () -> new FragmentItem(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_FRAGMENT  = ITEMS.register("amethyst_fragment", () -> new FragmentItem(new Item.Properties(), false));
+    public static final RegistryObject<Item> DIAMOND_FRAGMENT  = ITEMS.register("diamond_fragment", () -> new FragmentItem(new Item.Properties(), false));
+    public static final RegistryObject<Item> EMERALD_FRAGMENT  = ITEMS.register("emerald_fragment", () -> new FragmentItem(new Item.Properties(), false));
+    public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT  = ITEMS.register("lapis_lazuli_fragment", () -> new FragmentItem(new Item.Properties(), false));
+    public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT  = ITEMS.register("nether_quartz_fragment", () -> new FragmentItem(new Item.Properties(), false));
 
     /***** Metals ****/
     // Vanilla Additions
@@ -72,6 +72,7 @@ public class ModItems {
         // Run gemResourceRegister on all Gems
         gemResourceRegister.registerGemGroup("apatite");
         gemResourceRegister.registerGemGroup("certus_quartz");
+        gemResourceRegister.registerGemGroup("charged_certus_quartz");
         gemResourceRegister.registerGemGroup("peridot");
         gemResourceRegister.registerGemGroup("rose_quartz");
         gemResourceRegister.registerGemGroup("ruby");
