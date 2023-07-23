@@ -73,6 +73,7 @@ public class ModItems {
         gemResourceRegister.registerGemGroup("apatite");
         gemResourceRegister.registerGemGroup("certus_quartz");
         gemResourceRegister.registerGemGroup("charged_certus_quartz");
+        gemResourceRegister.registerGemGroup("fluix_crystal");
         gemResourceRegister.registerGemGroup("peridot");
         gemResourceRegister.registerGemGroup("rose_quartz");
         gemResourceRegister.registerGemGroup("ruby");

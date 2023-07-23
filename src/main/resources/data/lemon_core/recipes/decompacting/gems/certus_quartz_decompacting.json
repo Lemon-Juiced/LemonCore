@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "lemon_core:certus_quartz_shard"
+            "item": "lemon_core:certus_quartz"
         }
     ],
     "result": {

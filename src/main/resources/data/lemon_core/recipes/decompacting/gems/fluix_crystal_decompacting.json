@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "lemon_core:charged_certus_quartz"
+            "item": "lemon_core:fluix_crystal"
         }
     ],
     "result": {
-        "item": "lemon_core:charged_certus_quartz_fragment",
+        "item": "lemon_core:fluix_crystal_fragment",
         "count": 9
     }
 }
