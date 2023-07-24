@@ -19,6 +19,7 @@
     "#forge:nuggets/constantan",
     "#forge:nuggets/electrum",
     "#forge:nuggets/invar",
+    "#forge:nuggets/refined_iron",
     "#forge:nuggets/steel"
   ]
 }

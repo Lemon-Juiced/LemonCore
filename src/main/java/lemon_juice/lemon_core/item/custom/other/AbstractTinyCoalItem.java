@@ -1,4 +1,4 @@
-package lemon_juice.lemon_core.item;
+package lemon_juice.lemon_core.item.custom.other;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
@@ -11,9 +11,11 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class AbstractTinyCoalItem extends Item {
+    String modID;
 
-    public AbstractTinyCoalItem(Properties properties) {
+    public AbstractTinyCoalItem(Properties properties, String modID) {
         super(properties);
+        this.modID = modID;
     }
 
     //Set Burn Time To 200 Ticks (1 Second)
@@ -24,6 +26,7 @@ public class AbstractTinyCoalItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.translatable("lemon_core.abstract_tiny_coal.tooltip"));
+        components.add(Component.translatable("tooltip.lemon_core.abstract_tiny_coal"));
+        components.add(Component.translatable("tooltip.lemon_core.integration").append(" " + modID));
     }
 }

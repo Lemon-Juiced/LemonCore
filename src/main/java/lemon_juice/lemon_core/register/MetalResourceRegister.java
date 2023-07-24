@@ -19,9 +19,10 @@ public class MetalResourceRegister {
      * Assumes the item is not fireproof
      *
      * @param name The name of the metal
+     * @param modID The id of the mod for integration tooltip
      */
-    public void registerMetalGroup(String name){
-        registerMetalGroup(name, false);
+    public void registerMetalGroup(String name, String modID){
+        registerMetalGroup(name, modID, false);
     }
 
     /**
@@ -29,14 +30,15 @@ public class MetalResourceRegister {
      * Includes: Ingot, Nugget, and Block
      *
      * @param name The name of the metal
+     * @param modID The id of the mod for integration tooltip
      * @param isFireproof true if the group is fireproof, false otherwise
      */
-    public void registerMetalGroup(String name, boolean isFireproof){
-        ModItems.ITEMS.register(name + "_ingot", () -> new IngotItem(new Item.Properties(), isFireproof));
-        ModItems.ITEMS.register(name + "_nugget", () -> new NuggetItem(new Item.Properties(), isFireproof));
+    public void registerMetalGroup(String name, String modID, boolean isFireproof){
+        ModItems.ITEMS.register(name + "_ingot", () -> new IngotItem(new Item.Properties(), modID, isFireproof));
+        ModItems.ITEMS.register(name + "_nugget", () -> new NuggetItem(new Item.Properties(), modID, isFireproof));
 
-        if(!isFireproof) ModBlocks.registerBlock(name + "_block", () -> new MetalBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
-        else BlockRegister.registerFireproofBlock(name + "_block", () -> new MetalBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+        if(!isFireproof) ModBlocks.registerBlock(name + "_block", modID, () -> new MetalBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+        else BlockRegister.registerFireproofBlock(name + "_block", modID, () -> new MetalBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
     }
 
 }

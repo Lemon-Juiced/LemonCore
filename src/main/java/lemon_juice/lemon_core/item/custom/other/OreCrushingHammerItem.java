@@ -1,4 +1,4 @@
-package lemon_juice.lemon_core.item.custom;
+package lemon_juice.lemon_core.item.custom.other;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

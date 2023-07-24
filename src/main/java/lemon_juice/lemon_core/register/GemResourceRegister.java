@@ -17,9 +17,10 @@ public class GemResourceRegister {
      * Includes: Gem, Fragment, and Block
      *
      * @param name The name of the gem
+     * @param modID The id of the mod for integration tooltip
      */
-    public void registerGemGroup(String name){
-        registerGemGroup(name, false);
+    public void registerGemGroup(String name, String modID){
+        registerGemGroup(name, modID, false);
     }
 
     /**
@@ -27,13 +28,14 @@ public class GemResourceRegister {
      * Includes: Gem, Fragment, and Block
      *
      * @param name The name of the gem
+     * @param modID The id of the mod for integration tooltip
      * @param isGlowing true if the group is glowing, false otherwise
      */
-    public void registerGemGroup(String name, boolean isGlowing){
-        ModItems.ITEMS.register(name, () -> new GemItem(new Item.Properties(), isGlowing));
-        ModItems.ITEMS.register(name + "_fragment", () -> new FragmentItem(new Item.Properties(), isGlowing));
+    public void registerGemGroup(String name, String modID, boolean isGlowing){
+        ModItems.ITEMS.register(name, () -> new GemItem(new Item.Properties(), modID, isGlowing));
+        ModItems.ITEMS.register(name + "_fragment", () -> new FragmentItem(new Item.Properties(), modID, isGlowing));
 
-        if(!isGlowing) ModBlocks.registerBlock(name + "_block", () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
-        else BlockRegister.registerGlowingBlock(name + "_block", () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+        if(!isGlowing) ModBlocks.registerBlock(name + "_block", modID, () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+        else BlockRegister.registerGlowingBlock(name + "_block", modID, () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
     }
 }

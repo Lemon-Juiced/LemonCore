@@ -17,6 +17,7 @@
     "#forge:ingots/constantan",
     "#forge:ingots/electrum",
     "#forge:ingots/invar",
+    "#forge:ingots/refined_iron",
     "#forge:ingots/steel"
   ]
 }

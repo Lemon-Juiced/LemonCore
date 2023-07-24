@@ -12,23 +12,23 @@ import java.util.function.Supplier;
 import static lemon_juice.lemon_core.block.ModBlocks.BLOCKS;
 
 public class BlockRegister {
-    public static <T extends Block> RegistryObject<T> registerFireproofBlock(String name, Supplier<T> block) {
+    public static <T extends Block> RegistryObject<T> registerFireproofBlock(String name, String modID, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerFireproofBlockItem(name, toReturn);
+        registerFireproofBlockItem(name, modID, toReturn);
         return toReturn;
     }
 
-    public static <T extends Block> RegistryObject<Item> registerFireproofBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new FireproofBlockItem(block.get(), new Item.Properties()));
+    public static <T extends Block> RegistryObject<Item> registerFireproofBlockItem(String name, String modID, RegistryObject<T> block) {
+        return ModItems.ITEMS.register(name, () -> new FireproofBlockItem(block.get(), modID, new Item.Properties()));
     }
 
-    public static <T extends Block> RegistryObject<T> registerGlowingBlock(String name, Supplier<T> block) {
+    public static <T extends Block> RegistryObject<T> registerGlowingBlock(String name, String modID,Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerGlowingBlockItem(name, toReturn);
+        registerGlowingBlockItem(name, modID, toReturn);
         return toReturn;
     }
 
-    public static <T extends Block> RegistryObject<Item> registerGlowingBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new GlowingBlockItem(block.get(), new Item.Properties()));
+    public static <T extends Block> RegistryObject<Item> registerGlowingBlockItem(String name, String modID, RegistryObject<T> block) {
+        return ModItems.ITEMS.register(name, () -> new GlowingBlockItem(block.get(), modID, new Item.Properties()));
     }
 }

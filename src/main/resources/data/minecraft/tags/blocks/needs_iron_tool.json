@@ -11,7 +11,9 @@
     "lemon_core:constantan_block",
     "lemon_core:electrum_block",
     "lemon_core:invar_block",
+    "lemon_core:refined_iron_block",
     "lemon_core:steel_block",
+    "lemon_core:dimensional_shard_block",
     "lemon_core:peridot_block",
     "lemon_core:ruby_block",
     "lemon_core:sapphire_block"

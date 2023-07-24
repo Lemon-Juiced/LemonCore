@@ -2,6 +2,7 @@
   "item.lemon_core.apatite": "Apatite",
   "item.lemon_core.certus_quartz": "Certus Quartz",
   "item.lemon_core.charged_certus_quartz": "Charged Certus Quartz",
+  "item.lemon_core.dimensional_shard": "Dimensional Shard",
   "item.lemon_core.fluix_crystal": "Fluix Crystal",
   "item.lemon_core.peridot": "Peridot",
   "item.lemon_core.rose_quartz": "Rose Quartz",
@@ -13,6 +14,7 @@
   "item.lemon_core.apatite_fragment": "Apatite Fragment",
   "item.lemon_core.certus_quartz_fragment": "Certus Quartz Fragment",
   "item.lemon_core.charged_certus_quartz_fragment": "Charged Certus Quartz Fragment",
+  "item.lemon_core.dimensional_shard_fragment": "Dimensional Shard Fragment",
   "item.lemon_core.fluix_crystal_fragment": "Fluix Crystal Fragment",
   "item.lemon_core.peridot_fragment": "Peridot Fragment",
   "item.lemon_core.rose_quartz_fragment": "Rose Quartz Fragment",
@@ -23,6 +25,7 @@
   "item.lemon_core.amethyst_fragment": "Amethyst Fragment",
   "item.lemon_core.diamond_fragment": "Diamond Fragment",
   "item.lemon_core.emerald_fragment": "Emerald Fragment",
+  "item.lemon_core.ender_pearl_fragment": "Ender Pearl Fragment",
   "item.lemon_core.lapis_lazuli_fragment": "Lapis Lazuli Fragment",
   "item.lemon_core.nether_quartz_fragment": "Nether Quartz Fragment",
 
@@ -31,6 +34,7 @@
   "item.lemon_core.obsidian_shard": "Obsidian Shard",
   "item.lemon_core.tiny_charcoal": "Tiny Charcoal",
   "item.lemon_core.tiny_coal": "Tiny Coal",
+  "item.lemon_core.colorless_xychronite_crystal": "Colorless Xychronite Crystal",
 
   "item.lemon_core.aluminum_ingot": "Aluminum Ingot",
   "item.lemon_core.cobalt_ingot": "Cobalt Ingot",
@@ -48,6 +52,7 @@
   "item.lemon_core.constantan_ingot": "Constantan Ingot",
   "item.lemon_core.electrum_ingot": "Electrum Ingot",
   "item.lemon_core.invar_ingot": "Invar Ingot",
+  "item.lemon_core.refined_iron_ingot": "Refined Iron Ingot",
   "item.lemon_core.steel_ingot": "Steel Ingot",
 
   "item.lemon_core.copper_nugget": "Copper Nugget",
@@ -68,6 +73,7 @@
   "item.lemon_core.constantan_nugget": "Constantan Nugget",
   "item.lemon_core.electrum_nugget": "Electrum Nugget",
   "item.lemon_core.invar_nugget": "Invar Nugget",
+  "item.lemon_core.refined_iron_nugget": "Refined Iron Nugget",
   "item.lemon_core.steel_nugget": "Steel Nugget",
 
   "item.lemon_core.wooden_ore_crushing_hammer": "Wooden Ore Crushing Hammer",
@@ -77,11 +83,10 @@
   "item.lemon_core.diamond_ore_crushing_hammer": "Diamond Ore Crushing Hammer",
   "item.lemon_core.netherite_ore_crushing_hammer": "Netherite Ore Crushing Hammer",
 
-  "lemon_core.abstract_tiny_coal.tooltip": "Smelts One Item",
-
   "block.lemon_core.apatite_block": "Block of Apatite",
   "block.lemon_core.certus_quartz_block": "Block of Certus Quartz",
   "block.lemon_core.charged_certus_quartz_block": "Block of Charged Certus Quartz",
+  "block.lemon_core.dimensional_shard_block": "Block of Dimensional Shard",
   "block.lemon_core.fluix_crystal_block": "Block of Fluix Crystal",
   "block.lemon_core.peridot_block": "Block of Peridot",
   "block.lemon_core.rose_quartz_block": "Block of Rose Quartz",
@@ -106,7 +111,11 @@
   "block.lemon_core.constantan_block": "Block of Constantan",
   "block.lemon_core.electrum_block": "Block of Electrum",
   "block.lemon_core.invar_block": "Block of Invar",
+  "block.lemon_core.refined_iron_block": "Block of Refined Iron",
   "block.lemon_core.steel_block": "Block of Steel",
+
+  "tooltip.lemon_core.abstract_tiny_coal": "Smelts One Item",
+  "tooltip.lemon_core.integration": "Lemon Core x",
 
   "itemGroup.lemon_core": "Lemon Core"
 }

@@ -5,7 +5,7 @@ import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
 import lemon_juice.lemon_core.block.custom.MetalBlock;
 import lemon_juice.lemon_core.item.ModItems;
-import lemon_juice.lemon_core.item.custom.OreCrushingHammerItem;
+import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
 import lemon_juice.lemon_core.item.custom.metal.IngotItem;
@@ -57,6 +57,7 @@ public class ModCreativeTab {
             event.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));
             event.accept(new ItemStack(ModItems.TINY_CHARCOAL.get()));
             event.accept(new ItemStack(ModItems.TINY_COAL.get()));
+            event.accept(new ItemStack(ModItems.COLORLESS_XYCHRONITE_CRYSTAL.get()));
 
             // Ore Crushing Hammers
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) {
