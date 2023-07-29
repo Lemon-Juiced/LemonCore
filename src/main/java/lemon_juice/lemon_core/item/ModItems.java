@@ -59,11 +59,14 @@ public class ModItems {
         // Run metalResourceRegister on all Metals
         /* Metals */
         metalResourceRegister.registerMetalGroup("aluminum", "Forge");
+        metalResourceRegister.registerMetalGroup("calorite", "Ad Astra");
         metalResourceRegister.registerMetalGroup("cobalt", "Forge");
+        metalResourceRegister.registerMetalGroup("desh", "Ad Astra");
         metalResourceRegister.registerMetalGroup("lead", "Forge");
         metalResourceRegister.registerMetalGroup("manganese", "Better Steel");
         metalResourceRegister.registerMetalGroup("nickel", "Forge");
         metalResourceRegister.registerMetalGroup("osmium", "Mekanism");
+        metalResourceRegister.registerMetalGroup("ostrum", "Ad Astra");
         metalResourceRegister.registerMetalGroup("platinum", "Forge");
         metalResourceRegister.registerMetalGroup("silver", "Forge");
         metalResourceRegister.registerMetalGroup("tin", "Forge");

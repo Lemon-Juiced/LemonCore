@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "lemon_core:calorite_block",
     "lemon_core:manyullyn_block",
-    "lemon_core:necronite_block"
+    "lemon_core:necronite_block",
+    "lemon_core:ostrum_block"
   ]
 }

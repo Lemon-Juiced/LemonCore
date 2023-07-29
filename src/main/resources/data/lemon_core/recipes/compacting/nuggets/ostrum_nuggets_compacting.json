@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/ostrum"
+    }
+  },
+  "result": {
+    "item": "lemon_core:ostrum_ingot",
+    "count": 1
+  }
+}

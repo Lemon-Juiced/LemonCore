@@ -1,11 +1,14 @@
 {
   "values": [
     "lemon_core:aluminum_ingot",
+    "lemon_core:calorite_ingot",
     "lemon_core:cobalt_ingot",
+    "lemon_core:desh_ingot",
     "lemon_core:lead_ingot",
     "lemon_core:manganese_ingot",
     "lemon_core:nickel_ingot",
     "lemon_core:osmium_ingot",
+    "lemon_core:ostrum_ingot",
     "lemon_core:platinum_ingot",
     "lemon_core:silver_ingot",
     "lemon_core:tin_ingot",

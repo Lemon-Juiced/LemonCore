@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "#forge:nuggets/calorite",
     "#forge:nuggets/copper",
+    "#forge:nuggets/desh",
     "#forge:nuggets/netherite",
     "#forge:nuggets/aluminum",
     "#forge:nuggets/cobalt",
@@ -9,6 +11,7 @@
     "#forge:nuggets/manganese",
     "#forge:nuggets/nickel",
     "#forge:nuggets/osmium",
+    "#forge:nuggets/ostrum",
     "#forge:nuggets/platinum",
     "#forge:nuggets/silver",
     "#forge:nuggets/tin",
