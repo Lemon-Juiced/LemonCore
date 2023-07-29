@@ -84,9 +84,11 @@ public class ModItems {
         gemResourceRegister.registerGemGroup("apatite", "Forge");
         gemResourceRegister.registerGemGroup("certus_quartz", "Applied Energistics 2");
         gemResourceRegister.registerGemGroup("charged_certus_quartz", "Applied Energistics 2");
+        gemResourceRegister.registerGemGroup("cinnabar", "Thermal Series");
         gemResourceRegister.registerGemGroup("coal_coke", "Forge");
         gemResourceRegister.registerGemGroup("dimensional_shard", "RFTools");
         gemResourceRegister.registerGemGroup("fluix_crystal", "Applied Energistics 2");
+        gemResourceRegister.registerGemGroup("niter", "Thermal Series");
         gemResourceRegister.registerGemGroup("peridot", "Forge");
         gemResourceRegister.registerGemGroup("rose_quartz", "Create");
         gemResourceRegister.registerGemGroup("ruby", "Forge");

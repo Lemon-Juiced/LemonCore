@@ -8,8 +8,10 @@
     "lemon_core:apatite_block",
     "lemon_core:certus_quartz_block",
     "lemon_core:charged_certus_quartz_block",
+    "lemon_core:cinnabar_block",
     "lemon_core:coal_coke_block",
     "lemon_core:fluix_crystal_block",
+    "lemon_core:niter_block",
     "lemon_core:rose_quartz_block",
     "lemon_core:silicon_block",
     "lemon_core:sulfur_block"
