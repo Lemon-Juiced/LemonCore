@@ -18,13 +18,15 @@ public class OreCrushingHammerItem extends Item {
 
     @Override
     public int getMaxDamage(ItemStack stack) {
-        if (tier.equals("gold")) return 32;
-        else if (tier.equals("wood")) return 59;
-        else if (tier.equals("stone")) return 131;
-        else if (tier.equals("iron")) return 250;
-        else if (tier.equals("diamond")) return 1561;
-        else if (tier.equals("netherite")) return 2031;
-        else return 32; //Assume its gold so it doesn't get extra durability
+        return switch (tier) {
+            case "gold" -> 32;
+            case "wood" -> 59;
+            case "stone" -> 131;
+            case "iron" -> 250;
+            case "diamond" -> 1561;
+            case "netherite" -> 2031;
+            default -> 32; //Assume its gold so it doesn't get extra durability
+        };
     }
 
     @Override

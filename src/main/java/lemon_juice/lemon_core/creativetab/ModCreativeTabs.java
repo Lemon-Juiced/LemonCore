@@ -55,35 +55,59 @@ public class ModCreativeTabs {
         if(event.getTab() == LEMON_CORE_GEMS_TAB.get()){
             /* Items */
             // Gems
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof GemItem) event.accept(item.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof GemItem)
+                    event.accept(item.get());
             // Fragments
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof FragmentItem) event.accept(item.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof FragmentItem fragmentItem)
+                    if(!fragmentItem.getModID().equals("Vanilla"))
+                        event.accept(item.get());
 
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof CoalCokeItem) event.accept(item.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof CoalCokeItem)
+                    event.accept(item.get());
 
             event.accept(new ItemStack(ModItems.COLORLESS_XYCHRONITE_CRYSTAL.get()));
 
             /* Blocks */
             // Gems
-            for(RegistryObject<Block> block : ModBlocks.BLOCKS.getEntries()) if(block.get() instanceof GemBlock) event.accept(block.get());
+            for(RegistryObject<Block> block : ModBlocks.BLOCKS.getEntries())
+                if(block.get() instanceof GemBlock)
+                    event.accept(block.get());
         }
 
         if(event.getTab() == LEMON_CORE_METALS_TAB.get()){
             /* Items */
             // Ingots
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof IngotItem) event.accept(item.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof IngotItem)
+                    event.accept(item.get());
             // Nuggets
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof NuggetItem) if(!(item.get() == ModItems.COPPER_NUGGET.get()) && !(item.get() == ModItems.NETHERITE_NUGGET.get())) event.accept(item.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof NuggetItem nuggetItem)
+                    if(!nuggetItem.getModID().equals("Vanilla"))
+                        event.accept(item.get());
+
+            //if(!(item.get() == ModItems.COPPER_NUGGET.get()) && !(item.get() == ModItems.NETHERITE_NUGGET.get()))
 
             /* Blocks */
             // Ingots
-            for(RegistryObject<Block> block : ModBlocks.BLOCKS.getEntries()) if(block.get() instanceof MetalBlock) event.accept(block.get());
+            for(RegistryObject<Block> block : ModBlocks.BLOCKS.getEntries())
+                if(block.get() instanceof MetalBlock)
+                    event.accept(block.get());
         }
 
         if(event.getTab() == LEMON_CORE_VANILLA_PLUS_TAB.get()){
             // Other
             event.accept(new ItemStack(ModItems.COPPER_NUGGET.get()));
             event.accept(new ItemStack(ModItems.NETHERITE_NUGGET.get()));
+
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof FragmentItem fragmentItem)
+                    if(fragmentItem.getModID().equals("Vanilla"))
+                        event.accept(item.get());
+
             event.accept(new ItemStack(ModItems.GRAIN_OF_GLOWSTONE_DUST.get()));
             event.accept(new ItemStack(ModItems.GRAIN_OF_REDSTONE_DUST.get()));
             event.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));

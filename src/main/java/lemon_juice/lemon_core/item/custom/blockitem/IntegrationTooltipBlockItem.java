@@ -23,4 +23,8 @@ public class IntegrationTooltipBlockItem extends BlockItem {
         String xModID = " x " + modID;
         components.add(Component.translatable("tooltip.lemon_core.integration").append(xModID));
     }
+
+    public String getModID() {
+        return modID;
+    }
 }
