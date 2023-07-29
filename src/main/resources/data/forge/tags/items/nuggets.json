@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
+    "#forge:nuggets/aluminum",
     "#forge:nuggets/calorite",
+    "#forge:nuggets/cobalt",
     "#forge:nuggets/copper",
     "#forge:nuggets/desh",
-    "#forge:nuggets/netherite",
-    "#forge:nuggets/aluminum",
-    "#forge:nuggets/cobalt",
     "#forge:nuggets/lead",
     "#forge:nuggets/manganese",
+    "#forge:nuggets/netherite",
     "#forge:nuggets/nickel",
     "#forge:nuggets/osmium",
     "#forge:nuggets/ostrum",

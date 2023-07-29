@@ -157,5 +157,8 @@
   "tooltip.lemon_core.coal_coke_block": "Smelts One Hundred Forty Four Items",
   "tooltip.lemon_core.integration": "Lemon Core",
 
-  "itemGroup.lemon_core": "Lemon Core"
+  "itemGroup.lemon_core_gems": "Lemon Core: Gems",
+  "itemGroup.lemon_core_metals": "Lemon Core: Metals",
+  "itemGroup.lemon_core_vanilla_plus": "Lemon Core: Vanilla Plus",
+  "itemGroup.lemon_core_other": "Lemon Core: Other"
 }
