@@ -6,6 +6,9 @@
     "lemon_core:platinum_block",
     "lemon_core:ridiculite_block",
     "lemon_core:tungsten_block",
-    "lemon_core:enderium_block"
+
+    "lemon_core:end_steel_block",
+    "lemon_core:enderium_block",
+    "lemon_core:vibrant_alloy_block"
   ]
 }

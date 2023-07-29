@@ -27,16 +27,25 @@
     "#forge:nuggets/zinc",
     "#forge:nuggets/brass",
     "#forge:nuggets/bronze",
+    "#forge:nuggets/conductive_alloy",
     "#forge:nuggets/constantan",
+    "#forge:nuggets/copper_alloy",
+    "#forge:nuggets/dark_steel",
     "#forge:nuggets/electrum",
+    "#forge:nuggets/end_steel",
     "#forge:nuggets/enderium",
+    "#forge:nuggets/energetic_alloy",
     "#forge:nuggets/invar",
     "#forge:nuggets/lumium",
     "#forge:nuggets/manyullyn",
     "#forge:nuggets/necronite",
+    "#forge:nuggets/pulsating_alloy",
+    "#forge:nuggets/redstone_alloy",
     "#forge:nuggets/refined_iron",
     "#forge:nuggets/rose_gold",
     "#forge:nuggets/signalum",
-    "#forge:nuggets/steel"
+    "#forge:nuggets/soularium",
+    "#forge:nuggets/steel",
+    "#forge:nuggets/vibrant_alloy"
   ]
 }

@@ -39,17 +39,18 @@ public class ModItems {
     public static final RegistryObject<Item> OBSIDIAN_SHARD = ITEMS.register("obsidian_shard", () -> new IntegrationTooltipItem(new Item.Properties(), "Vanilla"));
     public static final RegistryObject<Item> TINY_CHARCOAL = ITEMS.register("tiny_charcoal", () -> new AbstractTinyCoalItem(new Item.Properties(), "Vanilla"));
     public static final RegistryObject<Item> TINY_COAL = ITEMS.register("tiny_coal", () -> new AbstractTinyCoalItem(new Item.Properties(), "Vanilla"));
+    // Ender IO Compat
+    public static final RegistryObject<Item> GRAINS_OF_INFINITY  = ITEMS.register("grains_of_infinity", () -> new IntegrationTooltipItem(new Item.Properties(), "Ender IO"));
     // Xychron Compat
     public static final RegistryObject<Item> COLORLESS_XYCHRONITE_CRYSTAL  = ITEMS.register("colorless_xychronite_crystal", () -> new IntegrationTooltipItem(new Item.Properties(), "Xychron"));
 
-    /***** Ore Crushing Hammers - Added In A Later Update ******/
+    /***** Ore Crushing Hammers ******/
     public static final RegistryObject<Item> WOODEN_ORE_CRUSHING_HAMMER = ITEMS.register("wooden_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "wood"));
     public static final RegistryObject<Item> STONE_ORE_CRUSHING_HAMMER = ITEMS.register("stone_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "stone"));
     public static final RegistryObject<Item> IRON_ORE_CRUSHING_HAMMER = ITEMS.register("iron_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "iron"));
     public static final RegistryObject<Item> GOLDEN_ORE_CRUSHING_HAMMER = ITEMS.register("golden_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "gold"));
     public static final RegistryObject<Item> DIAMOND_ORE_CRUSHING_HAMMER = ITEMS.register("diamond_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "diamond"));
     public static final RegistryObject<Item> NETHERITE_ORE_CRUSHING_HAMMER = ITEMS.register("netherite_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "netherite"));
-
 
     public static void register(IEventBus eventBus){
         // Create a ResourceRegisters
@@ -83,17 +84,26 @@ public class ModItems {
         /* Alloys */
         metalResourceRegister.registerMetalGroup("brass", "Create");
         metalResourceRegister.registerMetalGroup("bronze", "Forge");
+        metalResourceRegister.registerMetalGroup("conductive_alloy", "Ender IO");
         metalResourceRegister.registerMetalGroup("constantan", "Forge");
+        metalResourceRegister.registerMetalGroup("copper_alloy", "Ender IO");
+        metalResourceRegister.registerMetalGroup("dark_steel", "Ender IO");
         metalResourceRegister.registerMetalGroup("electrum", "Forge");
+        metalResourceRegister.registerMetalGroup("end_steel", "Ender IO");
         metalResourceRegister.registerMetalGroup("enderium", "Thermal Series");
+        metalResourceRegister.registerMetalGroup("energetic_alloy", "Ender IO");
         metalResourceRegister.registerMetalGroup("invar", "Forge");
         metalResourceRegister.registerMetalGroup("lumium", "Thermal Series");
         metalResourceRegister.registerMetalGroup("manyullyn", "Tinkers Construct");
         metalResourceRegister.registerMetalGroup("necronite", "Scalar Utils 5", true);
+        metalResourceRegister.registerMetalGroup("pulsating_alloy", "Ender IO");
+        metalResourceRegister.registerMetalGroup("redstone_alloy", "Ender IO");
         metalResourceRegister.registerMetalGroup("refined_iron", "Refined Storage");
         metalResourceRegister.registerMetalGroup("rose_gold", "Thermal Series");
         metalResourceRegister.registerMetalGroup("signalum", "Thermal Series");
+        metalResourceRegister.registerMetalGroup("soularium", "Ender IO");
         metalResourceRegister.registerMetalGroup("steel", "Forge");
+        metalResourceRegister.registerMetalGroup("vibrant_alloy", "Ender IO");
 
         // Run gemResourceRegister on all Gems
         gemResourceRegister.registerGemGroup("anglesite", "Extreme Reactors");

@@ -5,7 +5,6 @@ import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
 import lemon_juice.lemon_core.block.custom.MetalBlock;
 import lemon_juice.lemon_core.item.ModItems;
-import lemon_juice.lemon_core.item.custom.other.AbstractTinyCoalItem;
 import lemon_juice.lemon_core.item.custom.other.CoalCokeItem;
 import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
@@ -22,6 +21,8 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+
+import static lemon_juice.lemon_core.creativetab.util.CreativeTabUtils.getFirstItem;
 
 public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LemonCore.MOD_ID);
@@ -68,6 +69,7 @@ public class ModCreativeTabs {
                 if(item.get() instanceof CoalCokeItem)
                     event.accept(item.get());
 
+            event.accept(new ItemStack(ModItems.GRAINS_OF_INFINITY.get()));
             event.accept(new ItemStack(ModItems.COLORLESS_XYCHRONITE_CRYSTAL.get()));
 
             /* Blocks */
@@ -88,8 +90,6 @@ public class ModCreativeTabs {
                 if(item.get() instanceof NuggetItem nuggetItem)
                     if(!nuggetItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
-
-            //if(!(item.get() == ModItems.COPPER_NUGGET.get()) && !(item.get() == ModItems.NETHERITE_NUGGET.get()))
 
             /* Blocks */
             // Ingots
@@ -120,43 +120,6 @@ public class ModCreativeTabs {
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof OreCrushingHammerItem) event.accept(item.get());
         }
 
-    }
-
-    /******************************** Util ********************************/
-
-    /**
-     * Returns an Item of a type that the tab represents
-     *
-     * @param tabType The type of tab the Item will represent
-     * @return an Item of a type that the tab represents
-     */
-    public static Item getFirstItem(String tabType){
-        Item tabItem = null;
-        for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()){
-            if(tabType.equals(gemTabType)){
-                if(item.get() instanceof GemItem) {
-                    tabItem = item.get();
-                    break; //Out of the for-loop
-                }
-            } else if(tabType.equals(metalTabType)){
-                if(item.get() instanceof IngotItem) {
-                    tabItem = item.get();
-                    break; //Out of the for-loop
-                }
-            } else if(tabType.equals(vanillaPlusTabType)){
-                if(item.get() instanceof AbstractTinyCoalItem) {
-                    tabItem = item.get();
-                    break; //Out of the for-loop
-                }
-            } else { //This catches "other"
-                if(item.get() instanceof OreCrushingHammerItem) {
-                    tabItem = item.get();
-                    break; //Out of the for-loop
-                }
-            }
-        }
-
-        return tabItem;
     }
 
     /******************************** Registry ********************************/

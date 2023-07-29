@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/vibrant_alloy"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:vibrant_alloy_ingot",
+        "count": 9
+    }
+}

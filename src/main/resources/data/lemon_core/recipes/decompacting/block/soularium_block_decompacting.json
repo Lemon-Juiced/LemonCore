@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/soularium"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:soularium_ingot",
+        "count": 9
+    }
+}
