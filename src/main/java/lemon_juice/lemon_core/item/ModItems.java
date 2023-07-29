@@ -89,7 +89,9 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("steel", "Forge");
 
         // Run gemResourceRegister on all Gems
+        gemResourceRegister.registerGemGroup("anglesite", "Extreme Reactors");
         gemResourceRegister.registerGemGroup("apatite", "Forge");
+        gemResourceRegister.registerGemGroup("benitoite", "Extreme Reactors");
         gemResourceRegister.registerGemGroup("certus_quartz", "Applied Energistics 2");
         gemResourceRegister.registerGemGroup("charged_certus_quartz", "Applied Energistics 2");
         gemResourceRegister.registerGemGroup("cinnabar", "Thermal Series");

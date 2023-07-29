@@ -1,5 +1,7 @@
 {
+  "item.lemon_core.anglesite": "Anglesite (PbSO4)",
   "item.lemon_core.apatite": "Apatite",
+  "item.lemon_core.benitoite": "Benitoite (BaTiSi3O9)",
   "item.lemon_core.certus_quartz": "Certus Quartz",
   "item.lemon_core.charged_certus_quartz": "Charged Certus Quartz",
   "item.lemon_core.cinnabar": "Cinnabar",
@@ -14,7 +16,9 @@
   "item.lemon_core.silicon": "Silicon",
   "item.lemon_core.sulfur": "Sulfur",
 
+  "item.lemon_core.anglesite_fragment": "Anglesite Fragment (PbSO4)",
   "item.lemon_core.apatite_fragment": "Apatite Fragment",
+  "item.lemon_core.benitoite_fragment": "Benitoite Fragment (BaTiSi3O9)",
   "item.lemon_core.certus_quartz_fragment": "Certus Quartz Fragment",
   "item.lemon_core.charged_certus_quartz_fragment": "Charged Certus Quartz Fragment",
   "item.lemon_core.cinnabar_fragment": "Cinnabar Fragment",
@@ -108,7 +112,9 @@
   "item.lemon_core.diamond_ore_crushing_hammer": "Diamond Ore Crushing Hammer",
   "item.lemon_core.netherite_ore_crushing_hammer": "Netherite Ore Crushing Hammer",
 
+  "block.lemon_core.anglesite_block": "Block of Anglesite (PbSO4)",
   "block.lemon_core.apatite_block": "Block of Apatite",
+  "block.lemon_core.benitoite_block": "Block of Benitoite (BaTiSi3O9)",
   "block.lemon_core.certus_quartz_block": "Block of Certus Quartz",
   "block.lemon_core.charged_certus_quartz_block": "Block of Charged Certus Quartz",
   "block.lemon_core.cinnabar_block": "Block of Cinnabar",

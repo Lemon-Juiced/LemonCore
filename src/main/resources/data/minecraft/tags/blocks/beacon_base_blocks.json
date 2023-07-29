@@ -2,7 +2,9 @@
   "replace": false,
   "values": [
     "lemon_core:aluminum_block",
+    "lemon_core:anglesite_block",
     "lemon_core:apatite_block",
+    "lemon_core:benitoite_block",
     "lemon_core:brass_block",
     "lemon_core:bronze_block",
     "lemon_core:calorite_block",

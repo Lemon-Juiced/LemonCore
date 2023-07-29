@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:anglesite_shard"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:anglesite_fragment",
+        "count": 9
+    }
+}

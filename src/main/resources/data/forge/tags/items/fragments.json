@@ -2,7 +2,9 @@
   "replace": false,
   "values": [
     "#forge:fragments/amethyst",
+    "#forge:fragments/anglesite",
     "#forge:fragments/apatite",
+    "#forge:fragments/benitoite",
     "#forge:fragments/certus_quartz",
     "#forge:fragments/charged_certus_quartz",
     "#forge:fragments/cinnabar",
