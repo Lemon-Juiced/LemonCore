@@ -1,6 +1,5 @@
 package lemon_juice.lemon_core.item.custom.other;
 
-import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
