@@ -1,5 +1,6 @@
 package lemon_juice.lemon_core.item.custom.blockitem;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
@@ -20,6 +21,6 @@ public class IntegrationTooltipBlockItem extends BlockItem {
 
     @Override
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.translatable("tooltip.lemon_core.integration").append(" " + modID));
+        components.add(Component.translatable("tooltip.lemon_core.integration").append(" x " + modID));
     }
 }

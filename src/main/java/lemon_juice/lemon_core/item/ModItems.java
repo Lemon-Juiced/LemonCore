@@ -64,8 +64,10 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("manganese", "Better Steel");
         metalResourceRegister.registerMetalGroup("nickel", "Forge");
         metalResourceRegister.registerMetalGroup("osmium", "Mekanism");
+        metalResourceRegister.registerMetalGroup("platinum", "Forge");
         metalResourceRegister.registerMetalGroup("silver", "Forge");
         metalResourceRegister.registerMetalGroup("tin", "Forge");
+        metalResourceRegister.registerMetalGroup("tungsten", "Forge");
         metalResourceRegister.registerMetalGroup("uranium", "Forge");
         metalResourceRegister.registerMetalGroup("zinc", "Create");
         /* Alloys */

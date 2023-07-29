@@ -1,5 +1,6 @@
 package lemon_juice.lemon_core.item.custom.other;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -25,6 +26,6 @@ public class AbstractTinyCoalItem extends IntegrationTooltipItem {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         components.add(Component.translatable("tooltip.lemon_core.abstract_tiny_coal"));
-        components.add(Component.translatable("tooltip.lemon_core.integration").append(" " + modID));
+        components.add(Component.translatable("tooltip.lemon_core.integration").append(" x " + modID));
     }
 }

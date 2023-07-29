@@ -40,7 +40,6 @@ public class ModCreativeTab {
 
             // Gems
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof GemItem) event.accept(item.get());
-
             // Fragments
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof FragmentItem) event.accept(item.get());
 
