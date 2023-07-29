@@ -7,7 +7,6 @@
     "#forge:nuggets/cobalt",
     "#forge:nuggets/lead",
     "#forge:nuggets/manganese",
-    "#forge:nuggets/necronite",
     "#forge:nuggets/nickel",
     "#forge:nuggets/osmium",
     "#forge:nuggets/platinum",
@@ -21,6 +20,8 @@
     "#forge:nuggets/constantan",
     "#forge:nuggets/electrum",
     "#forge:nuggets/invar",
+    "#forge:nuggets/manyullyn",
+    "#forge:nuggets/necronite",
     "#forge:nuggets/refined_iron",
     "#forge:nuggets/steel"
   ]

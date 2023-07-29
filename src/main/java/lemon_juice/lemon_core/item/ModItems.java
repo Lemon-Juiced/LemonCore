@@ -76,6 +76,7 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("constantan", "Forge");
         metalResourceRegister.registerMetalGroup("electrum", "Forge");
         metalResourceRegister.registerMetalGroup("invar", "Forge");
+        metalResourceRegister.registerMetalGroup("manyullyn", "Tinkers Construct");
         metalResourceRegister.registerMetalGroup("necronite", "Scalar Utils 5", true);
         metalResourceRegister.registerMetalGroup("refined_iron", "Refined Storage");
         metalResourceRegister.registerMetalGroup("steel", "Forge");

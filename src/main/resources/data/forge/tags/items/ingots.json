@@ -5,7 +5,6 @@
     "#forge:ingots/cobalt",
     "#forge:ingots/lead",
     "#forge:ingots/manganese",
-    "#forge:ingots/necronite",
     "#forge:ingots/nickel",
     "#forge:ingots/osmium",
     "#forge:ingots/platinum",
@@ -19,6 +18,8 @@
     "#forge:ingots/constantan",
     "#forge:ingots/electrum",
     "#forge:ingots/invar",
+    "#forge:ingots/manyullyn",
+    "#forge:ingots/necronite",
     "#forge:ingots/refined_iron",
     "#forge:ingots/steel"
   ]

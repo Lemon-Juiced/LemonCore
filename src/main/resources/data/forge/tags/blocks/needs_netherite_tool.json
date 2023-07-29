@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "lemon_core:manyullyn_block",
     "lemon_core:necronite_block"
   ]
 }
