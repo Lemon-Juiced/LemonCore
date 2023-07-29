@@ -73,7 +73,7 @@ public class ModCreativeTabs {
             // Ingots
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof IngotItem) event.accept(item.get());
             // Nuggets
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof NuggetItem) event.accept(item.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) if(item.get() instanceof NuggetItem) if(!(item.get() == ModItems.COPPER_NUGGET.get()) && !(item.get() == ModItems.NETHERITE_NUGGET.get())) event.accept(item.get());
 
             /* Blocks */
             // Ingots
@@ -82,6 +82,8 @@ public class ModCreativeTabs {
 
         if(event.getTab() == LEMON_CORE_VANILLA_PLUS_TAB.get()){
             // Other
+            event.accept(new ItemStack(ModItems.COPPER_NUGGET.get()));
+            event.accept(new ItemStack(ModItems.NETHERITE_NUGGET.get()));
             event.accept(new ItemStack(ModItems.GRAIN_OF_GLOWSTONE_DUST.get()));
             event.accept(new ItemStack(ModItems.GRAIN_OF_REDSTONE_DUST.get()));
             event.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));

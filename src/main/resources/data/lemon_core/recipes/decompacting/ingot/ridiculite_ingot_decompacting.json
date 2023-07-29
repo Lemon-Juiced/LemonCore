@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/ridiculite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:ridiculite_nugget",
+        "count": 9
+    }
+}

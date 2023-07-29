@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/insanite"
+    }
+  },
+  "result": {
+    "item": "lemon_core:insanite_block",
+    "count": 1
+  }
+}

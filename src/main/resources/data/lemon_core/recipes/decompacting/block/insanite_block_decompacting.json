@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/insanite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:insanite_ingot",
+        "count": 9
+    }
+}

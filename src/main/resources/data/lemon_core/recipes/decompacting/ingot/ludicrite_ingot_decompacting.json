@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/ludicrite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:ludicrite_nugget",
+        "count": 9
+    }
+}

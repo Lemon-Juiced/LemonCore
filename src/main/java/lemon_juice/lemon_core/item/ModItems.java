@@ -59,15 +59,22 @@ public class ModItems {
         // Run metalResourceRegister on all Metals
         /* Metals */
         metalResourceRegister.registerMetalGroup("aluminum", "Forge");
+        metalResourceRegister.registerMetalGroup("blutonium", "Bigger Reactors / Extreme Reactors");
         metalResourceRegister.registerMetalGroup("calorite", "Ad Astra");
-        metalResourceRegister.registerMetalGroup("cobalt", "Forge");
+        metalResourceRegister.registerMetalGroup("cobalt", "Tinkers Construct");
+        metalResourceRegister.registerMetalGroup("cyanite", "Bigger Reactors / Extreme Reactors");
         metalResourceRegister.registerMetalGroup("desh", "Ad Astra");
+        metalResourceRegister.registerMetalGroup("graphite", "Bigger Reactors / Extreme Reactors");
+        metalResourceRegister.registerMetalGroup("insanite", "Extreme Reactors");
         metalResourceRegister.registerMetalGroup("lead", "Forge");
+        metalResourceRegister.registerMetalGroup("ludicrite", "Bigger Reactors / Extreme Reactors");
+        metalResourceRegister.registerMetalGroup("magnetite", "Extreme Reactors");
         metalResourceRegister.registerMetalGroup("manganese", "Better Steel");
         metalResourceRegister.registerMetalGroup("nickel", "Forge");
         metalResourceRegister.registerMetalGroup("osmium", "Mekanism");
         metalResourceRegister.registerMetalGroup("ostrum", "Ad Astra");
         metalResourceRegister.registerMetalGroup("platinum", "Forge");
+        metalResourceRegister.registerMetalGroup("ridiculite", "Extreme Reactors");
         metalResourceRegister.registerMetalGroup("silver", "Forge");
         metalResourceRegister.registerMetalGroup("tin", "Forge");
         metalResourceRegister.registerMetalGroup("tungsten", "Forge");

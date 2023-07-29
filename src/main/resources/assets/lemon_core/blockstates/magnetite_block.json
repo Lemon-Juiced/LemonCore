@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "lemon_core:block/magnetite_block" }
+  }
+}

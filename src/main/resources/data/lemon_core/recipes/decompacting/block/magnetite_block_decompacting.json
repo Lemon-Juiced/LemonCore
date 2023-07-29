@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/magnetite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:magnetite_ingot",
+        "count": 9
+    }
+}
