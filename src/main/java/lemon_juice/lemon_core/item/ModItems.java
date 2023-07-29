@@ -19,7 +19,7 @@ public class ModItems {
 
     /***** Gems *****/
     /*** Gems ***/
-    // Vanilla Additions
+    // Vanilla Compat
     public static final RegistryObject<Item> AMETHYST_FRAGMENT  = ITEMS.register("amethyst_fragment", () -> new FragmentItem(new Item.Properties(), "Vanilla",false));
     public static final RegistryObject<Item> DIAMOND_FRAGMENT  = ITEMS.register("diamond_fragment", () -> new FragmentItem(new Item.Properties(), "Vanilla",false));
     public static final RegistryObject<Item> EMERALD_FRAGMENT  = ITEMS.register("emerald_fragment", () -> new FragmentItem(new Item.Properties(), "Vanilla",false));
@@ -33,7 +33,7 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new NuggetItem(new Item.Properties(), "Vanilla", true));
 
     /***** Other ******/
-    // Vanilla Additions
+    // Vanilla Compat
     public static final RegistryObject<Item> GRAIN_OF_GLOWSTONE_DUST = ITEMS.register("grain_of_glowstone_dust", () -> new IntegrationTooltipItem(new Item.Properties(), "Vanilla"));
     public static final RegistryObject<Item> GRAIN_OF_REDSTONE_DUST = ITEMS.register("grain_of_redstone_dust", () -> new IntegrationTooltipItem(new Item.Properties(), "Vanilla"));
     public static final RegistryObject<Item> OBSIDIAN_SHARD = ITEMS.register("obsidian_shard", () -> new IntegrationTooltipItem(new Item.Properties(), "Vanilla"));
@@ -41,7 +41,6 @@ public class ModItems {
     public static final RegistryObject<Item> TINY_COAL = ITEMS.register("tiny_coal", () -> new AbstractTinyCoalItem(new Item.Properties(), "Vanilla"));
     // Xychron Compat
     public static final RegistryObject<Item> COLORLESS_XYCHRONITE_CRYSTAL  = ITEMS.register("colorless_xychronite_crystal", () -> new IntegrationTooltipItem(new Item.Properties(), "Xychron"));
-
 
     /***** Ore Crushing Hammers - Added In A Later Update ******/
     public static final RegistryObject<Item> WOODEN_ORE_CRUSHING_HAMMER = ITEMS.register("wooden_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties(), "wood"));
@@ -83,6 +82,7 @@ public class ModItems {
         gemResourceRegister.registerGemGroup("apatite", "Forge");
         gemResourceRegister.registerGemGroup("certus_quartz", "Applied Energistics 2");
         gemResourceRegister.registerGemGroup("charged_certus_quartz", "Applied Energistics 2");
+        gemResourceRegister.registerGemGroup("coal_coke", "Forge");
         gemResourceRegister.registerGemGroup("dimensional_shard", "RFTools");
         gemResourceRegister.registerGemGroup("fluix_crystal", "Applied Energistics 2");
         gemResourceRegister.registerGemGroup("peridot", "Forge");

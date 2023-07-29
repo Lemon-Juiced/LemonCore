@@ -34,6 +34,7 @@
   "item.lemon_core.obsidian_shard": "Obsidian Shard",
   "item.lemon_core.tiny_charcoal": "Tiny Charcoal",
   "item.lemon_core.tiny_coal": "Tiny Coal",
+  "item.lemon_core.coal_coke": "Coal Coke",
   "item.lemon_core.colorless_xychronite_crystal": "Colorless Xychronite Crystal",
 
   "item.lemon_core.aluminum_ingot": "Aluminum Ingot",
@@ -86,6 +87,7 @@
   "block.lemon_core.apatite_block": "Block of Apatite",
   "block.lemon_core.certus_quartz_block": "Block of Certus Quartz",
   "block.lemon_core.charged_certus_quartz_block": "Block of Charged Certus Quartz",
+  "block.lemon_core.coal_coke_block": "Block of Coal Coke",
   "block.lemon_core.dimensional_shard_block": "Block of Dimensional Shard",
   "block.lemon_core.fluix_crystal_block": "Block of Fluix Crystal",
   "block.lemon_core.peridot_block": "Block of Peridot",
@@ -115,6 +117,8 @@
   "block.lemon_core.steel_block": "Block of Steel",
 
   "tooltip.lemon_core.abstract_tiny_coal": "Smelts One Item",
+  "tooltip.lemon_core.coal_coke": "Smelts Sixteen Items",
+  "tooltip.lemon_core.coal_coke_block": "Smelts One Hundred Forty Four Items",
   "tooltip.lemon_core.integration": "Lemon Core x",
 
   "itemGroup.lemon_core": "Lemon Core"
