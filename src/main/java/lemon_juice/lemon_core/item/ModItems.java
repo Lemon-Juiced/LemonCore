@@ -75,10 +75,14 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("bronze", "Forge");
         metalResourceRegister.registerMetalGroup("constantan", "Forge");
         metalResourceRegister.registerMetalGroup("electrum", "Forge");
+        metalResourceRegister.registerMetalGroup("enderium", "Thermal Series");
         metalResourceRegister.registerMetalGroup("invar", "Forge");
+        metalResourceRegister.registerMetalGroup("lumium", "Thermal Series");
         metalResourceRegister.registerMetalGroup("manyullyn", "Tinkers Construct");
         metalResourceRegister.registerMetalGroup("necronite", "Scalar Utils 5", true);
         metalResourceRegister.registerMetalGroup("refined_iron", "Refined Storage");
+        metalResourceRegister.registerMetalGroup("rose_gold", "Thermal Series");
+        metalResourceRegister.registerMetalGroup("signalum", "Thermal Series");
         metalResourceRegister.registerMetalGroup("steel", "Forge");
 
         // Run gemResourceRegister on all Gems

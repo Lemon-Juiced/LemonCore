@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/lumium"
+    }
+  },
+  "result": {
+    "item": "lemon_core:lumium_block",
+    "count": 1
+  }
+}

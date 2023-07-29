@@ -17,10 +17,14 @@
     "#forge:ingots/bronze",
     "#forge:ingots/constantan",
     "#forge:ingots/electrum",
+    "#forge:ingots/enderium",
     "#forge:ingots/invar",
+    "#forge:ingots/lumium",
     "#forge:ingots/manyullyn",
     "#forge:ingots/necronite",
     "#forge:ingots/refined_iron",
+    "#forge:ingots/rose_gold",
+    "#forge:ingots/signalum",
     "#forge:ingots/steel"
   ]
 }

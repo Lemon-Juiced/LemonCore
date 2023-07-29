@@ -24,6 +24,7 @@ public class AbstractTinyCoalItem extends IntegrationTooltipItem {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         components.add(Component.translatable("tooltip.lemon_core.abstract_tiny_coal"));
-        components.add(Component.translatable("tooltip.lemon_core.integration").append(" x " + modID));
+        String xModID = " x " + modID;
+        components.add(Component.translatable("tooltip.lemon_core.integration").append(xModID));
     }
 }

@@ -3,6 +3,7 @@
   "values": [
     "lemon_core:cobalt_block",
     "lemon_core:platinum_block",
-    "lemon_core:tungsten_block"
+    "lemon_core:tungsten_block",
+    "lemon_core:enderium_block"
   ]
 }

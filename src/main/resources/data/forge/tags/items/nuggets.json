@@ -19,10 +19,14 @@
     "#forge:nuggets/bronze",
     "#forge:nuggets/constantan",
     "#forge:nuggets/electrum",
+    "#forge:nuggets/enderium",
     "#forge:nuggets/invar",
+    "#forge:nuggets/lumium",
     "#forge:nuggets/manyullyn",
     "#forge:nuggets/necronite",
     "#forge:nuggets/refined_iron",
+    "#forge:nuggets/rose_gold",
+    "#forge:nuggets/signalum",
     "#forge:nuggets/steel"
   ]
 }
