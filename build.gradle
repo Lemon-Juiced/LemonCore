@@ -91,7 +91,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.0.0.15")
 
     // Ender IO
-    // runtimeOnly fg.deobf("curse.maven:ender-io-64578:4637542")
+    runtimeOnly fg.deobf("curse.maven:ender-io-64578:4664073")
 
     // Xychron
     runtimeOnly fg.deobf("curse.maven:xychron-877090:4661104")
