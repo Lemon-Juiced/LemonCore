@@ -9,6 +9,8 @@
 
     "lemon_core:end_steel_block",
     "lemon_core:enderium_block",
-    "lemon_core:vibrant_alloy_block"
+    "lemon_core:vibrant_alloy_block",
+
+    "lemon_core:dimensional_shard_block"
   ]
 }
