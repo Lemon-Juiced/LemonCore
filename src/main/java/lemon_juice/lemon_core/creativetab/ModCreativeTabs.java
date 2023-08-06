@@ -5,6 +5,8 @@ import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
 import lemon_juice.lemon_core.block.custom.MetalBlock;
 import lemon_juice.lemon_core.item.ModItems;
+import lemon_juice.lemon_core.item.custom.gem.GemDustItem;
+import lemon_juice.lemon_core.item.custom.metal.MetalDustItem;
 import lemon_juice.lemon_core.item.custom.other.CoalCokeItem;
 import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
@@ -64,6 +66,11 @@ public class ModCreativeTabs {
                 if(item.get() instanceof FragmentItem fragmentItem)
                     if(!fragmentItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            // Dusts
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof GemDustItem gemDustItem)
+                    if(!gemDustItem.getModID().equals("Vanilla"))
+                        event.accept(item.get());
 
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
                 if(item.get() instanceof CoalCokeItem)
@@ -90,6 +97,11 @@ public class ModCreativeTabs {
                 if(item.get() instanceof NuggetItem nuggetItem)
                     if(!nuggetItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            // Dusts
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof MetalDustItem metalDustItem)
+                    if(!metalDustItem.getModID().equals("Vanilla"))
+                        event.accept(item.get());
 
             /* Blocks */
             // Ingots
@@ -102,15 +114,25 @@ public class ModCreativeTabs {
             // Other
             event.accept(new ItemStack(ModItems.COPPER_NUGGET.get()));
             event.accept(new ItemStack(ModItems.NETHERITE_NUGGET.get()));
+            event.accept(new ItemStack(ModItems.IRON_DUST.get()));
+            event.accept(new ItemStack(ModItems.GOLD_DUST.get()));
+            event.accept(new ItemStack(ModItems.COPPER_DUST.get()));
+            event.accept(new ItemStack(ModItems.NETHERITE_DUST.get()));
 
             for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
                 if(item.get() instanceof FragmentItem fragmentItem)
                     if(fragmentItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
 
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof GemDustItem gemDustItem)
+                    if(gemDustItem.getModID().equals("Vanilla"))
+                        event.accept(item.get());
+
             event.accept(new ItemStack(ModItems.GRAIN_OF_GLOWSTONE_DUST.get()));
             event.accept(new ItemStack(ModItems.GRAIN_OF_REDSTONE_DUST.get()));
             event.accept(new ItemStack(ModItems.OBSIDIAN_SHARD.get()));
+            event.accept(new ItemStack(ModItems.OBSIDIAN_DUST.get()));
             event.accept(new ItemStack(ModItems.TINY_CHARCOAL.get()));
             event.accept(new ItemStack(ModItems.TINY_COAL.get()));
         }
