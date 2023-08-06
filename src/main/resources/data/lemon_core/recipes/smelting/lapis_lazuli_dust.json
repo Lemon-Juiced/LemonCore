@@ -3,7 +3,7 @@
   "ingredient": {
     "tag": "forge:dusts/lapis_lazuli"
   },
-  "result": "minecraft:lapis_lazuli_shard",
+  "result": "minecraft:lapis_lazuli",
   "experience": 0.1,
   "cookingtime": 200
 }
