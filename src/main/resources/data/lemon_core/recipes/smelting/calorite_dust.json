@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:dusts/calorite"
+  },
+  "result": "lemon_core:calorite_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

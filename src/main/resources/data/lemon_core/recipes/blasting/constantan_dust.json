@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/constantan"
+  },
+  "result": "lemon_core:constantan_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

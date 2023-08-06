@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "gems": "forge:ingots/desh"
+    },
+    {
+      "tag": "forge:ore_crushing_hammers"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:desh_dust",
+    "count": 1
+  }
+}

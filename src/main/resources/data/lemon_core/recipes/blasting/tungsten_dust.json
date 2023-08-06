@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/tungsten"
+  },
+  "result": "lemon_core:tungsten_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

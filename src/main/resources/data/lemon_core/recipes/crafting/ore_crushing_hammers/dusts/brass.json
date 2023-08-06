@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "gems": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ore_crushing_hammers"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:brass_dust",
+    "count": 1
+  }
+}

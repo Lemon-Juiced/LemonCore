@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:dusts/lumium"
+  },
+  "result": "lemon_core:lumium_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

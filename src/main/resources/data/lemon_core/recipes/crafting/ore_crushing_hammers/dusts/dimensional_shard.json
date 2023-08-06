@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "gems": "forge:gems/dimensional_shard"
+    },
+    {
+      "tag": "forge:ore_crushing_hammers"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:dimensional_shard_dust",
+    "count": 1
+  }
+}

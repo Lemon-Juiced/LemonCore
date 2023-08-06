@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/conductive_alloy"
+  },
+  "result": "lemon_core:conductive_alloy_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

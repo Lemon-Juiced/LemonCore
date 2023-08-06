@@ -30,12 +30,13 @@ public class ModItems {
     public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT = ITEMS.register("nether_quartz_fragment", () -> new FragmentItem(new Item.Properties(), "Vanilla", false));
     // Vanilla Compat (Dusts)
     public static final RegistryObject<Item> AMETHYST_DUST = ITEMS.register("amethyst_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla",false));
+    public static final RegistryObject<Item> CHARCOAL_DUST = ITEMS.register("charcoal_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla", false));
+    public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla", false));
     public static final RegistryObject<Item> DIAMOND_DUST = ITEMS.register("diamond_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla",false));
     public static final RegistryObject<Item> EMERALD_DUST = ITEMS.register("emerald_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla",false));
     public static final RegistryObject<Item> ENDER_PEARL_DUST = ITEMS.register("ender_pearl_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla",false));
     public static final RegistryObject<Item> LAPIS_LAZULI_DUST = ITEMS.register("lapis_lazuli_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla",false));
     public static final RegistryObject<Item> NETHER_QUARTZ_DUST = ITEMS.register("nether_quartz_dust", () -> new GemDustItem(new Item.Properties(), "Vanilla", false));
-
 
     /***** Metals ****/
     // Vanilla Compat (Nuggets)

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:dusts/nether_quartz"
+  },
+  "result": "minecraft:nether_quartz",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/dimensional_shard"
+  },
+  "result": "lemon_core:dimensional_shard",
+  "experience": 0.1,
+  "cookingtime": 100
+}

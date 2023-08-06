@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/rose_quartz"
+  },
+  "result": "lemon_core:rose_quartz",
+  "experience": 0.1,
+  "cookingtime": 100
+}

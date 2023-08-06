@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/peridot"
+  },
+  "result": "lemon_core:peridot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

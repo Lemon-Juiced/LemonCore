@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/silicon"
+  },
+  "result": "lemon_core:silicon",
+  "experience": 0.1,
+  "cookingtime": 100
+}
