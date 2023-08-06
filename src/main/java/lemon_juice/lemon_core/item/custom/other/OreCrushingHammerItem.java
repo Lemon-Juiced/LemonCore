@@ -4,11 +4,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 public class OreCrushingHammerItem extends Item {
-    private final String tier;
 
-    public OreCrushingHammerItem(Properties properties, String tier) {
+    public OreCrushingHammerItem(Properties properties) {
         super(properties);
-        this.tier = tier;
     }
 
     @Override
