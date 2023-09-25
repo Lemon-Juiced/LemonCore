@@ -34,7 +34,7 @@ public class ModCreativeTabs {
     public static String vanillaPlusTabType = "vanilla_plus";
     public static String otherTabType = "other";
 
-    public static final RegistryObject<CreativeModeTab> LEMON_CORE_GEMS_TAB = CREATIVE_MODE_TABS.register("lemon_core_gemss", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> LEMON_CORE_GEMS_TAB = CREATIVE_MODE_TABS.register("lemon_core_gems", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.lemon_core_gems"))
             .icon(() -> new ItemStack(getFirstItem(gemTabType)))
             .build());
