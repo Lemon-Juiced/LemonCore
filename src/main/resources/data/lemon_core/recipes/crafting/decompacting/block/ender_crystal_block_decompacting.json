@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/ender_crystal"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:ender_crystal",
+        "count": 9
+    }
+}

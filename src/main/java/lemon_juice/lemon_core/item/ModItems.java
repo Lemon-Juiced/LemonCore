@@ -132,14 +132,18 @@ public class ModItems {
         gemResourceRegister.registerGemGroup("cinnabar", "Thermal Series");
         gemResourceRegister.registerGemGroup("coal_coke", "Forge");
         gemResourceRegister.registerGemGroup("dimensional_shard", "RFTools");
+        gemResourceRegister.registerGemGroup("ender_crystal", "Ender IO");
         gemResourceRegister.registerGemGroup("fluix_crystal", "Applied Energistics 2");
         gemResourceRegister.registerGemGroup("niter", "Thermal Series");
         gemResourceRegister.registerGemGroup("peridot", "Forge");
+        gemResourceRegister.registerGemGroup("prescient_crystal", "Ender IO");
+        gemResourceRegister.registerGemGroup("pulsating_crystal", "Ender IO");
         gemResourceRegister.registerGemGroup("rose_quartz", "Create");
         gemResourceRegister.registerGemGroup("ruby", "Forge");
         gemResourceRegister.registerGemGroup("sapphire", "Forge");
         gemResourceRegister.registerGemGroup("silicon", "Forge");
         gemResourceRegister.registerGemGroup("sulfur", "Forge");
+        gemResourceRegister.registerGemGroup("vibrant_crystal", "Ender IO");
 
         // Register Everything Not Done Through ResourceRegister
         ITEMS.register(eventBus);

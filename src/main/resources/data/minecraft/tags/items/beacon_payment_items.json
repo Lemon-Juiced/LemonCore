@@ -54,13 +54,17 @@
     "lemon_core:cinnabar",
     "lemon_core:coal_coke",
     "lemon_core:dimensional_shard",
+    "lemon_core:ender_crystal",
     "lemon_core:fluix_crystal",
     "lemon_core:niter",
     "lemon_core:peridot",
+    "lemon_core:prescient_crystal",
+    "lemon_core:pulsating_crystal",
     "lemon_core:rose_quartz",
     "lemon_core:ruby",
     "lemon_core:sapphire",
     "lemon_core:silcon",
-    "lemon_core:sulfur"
+    "lemon_core:sulfur",
+    "lemon_core:vibrant_crystal"
   ]
 }

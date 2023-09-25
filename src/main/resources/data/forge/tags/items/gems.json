@@ -9,12 +9,16 @@
     "#forge:gems/cinnabar",
     "#forge:gems/coal_coke",
     "#forge:gems/dimensional_shard",
+    "#forge:gems/ender_crystal",
     "#forge:gems/fluix_crystal",
     "#forge:gems/niter",
     "#forge:gems/peridot",
+    "#forge:gems/prescient_crystal",
+    "#forge:gems/pulsating_crystal",
     "#forge:gems/rose_quartz",
     "#forge:gems/ruby",
     "#forge:gems/sapphire",
-    "#forge:gems/sulfur"
+    "#forge:gems/sulfur",
+    "#forge:gems/vibrant_crystal"
   ]
 }

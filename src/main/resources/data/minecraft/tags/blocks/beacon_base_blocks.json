@@ -24,6 +24,7 @@
     "lemon_core:electrum_block",
     "lemon_core:end_steel_block",
     "lemon_core:enderium_block",
+    "lemon_core:ender_crystal_block",
     "lemon_core:energetic_alloy_block",
     "lemon_core:fluix_crystal_block",
     "lemon_core:graphite_block",
@@ -42,6 +43,8 @@
     "lemon_core:ostrum_block",
     "lemon_core:peridot_block",
     "lemon_core:platinum_block",
+    "lemon_core:prescient_crystal_block",
+    "lemon_core:pulsating_crystal_block",
     "lemon_core:pulsating_alloy_block",
     "lemon_core:redstone_alloy_block",
     "lemon_core:refined_iron_block",
@@ -60,6 +63,7 @@
     "lemon_core:tungsten_block",
     "lemon_core:uranium_block",
     "lemon_core:vibrant_alloy_block",
+    "lemon_core:vibrant_crystal_block",
     "lemon_core:zinc_block"
   ]
 }
