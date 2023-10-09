@@ -7,7 +7,6 @@ import lemon_juice.lemon_core.block.custom.MetalBlock;
 import lemon_juice.lemon_core.item.ModItems;
 import lemon_juice.lemon_core.item.custom.gem.GemDustItem;
 import lemon_juice.lemon_core.item.custom.metal.MetalDustItem;
-import lemon_juice.lemon_core.item.custom.other.CoalCokeItem;
 import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
@@ -71,10 +70,6 @@ public class ModCreativeTabs {
                 if(item.get() instanceof GemDustItem gemDustItem)
                     if(!gemDustItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
-
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
-                if(item.get() instanceof CoalCokeItem)
-                    event.accept(item.get());
 
             event.accept(new ItemStack(ModItems.GRAINS_OF_INFINITY.get()));
             event.accept(new ItemStack(ModItems.COLORLESS_XYCHRONITE_CRYSTAL.get()));
