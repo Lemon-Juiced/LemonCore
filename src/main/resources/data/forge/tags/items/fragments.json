@@ -25,6 +25,7 @@
     "#forge:fragments/sapphire",
     "#forge:fragments/silicon",
     "#forge:fragments/sulfur",
+    "#forge:fragments/umbralite",
     "#forge:fragments/vibrant_crystal"
   ]
 }

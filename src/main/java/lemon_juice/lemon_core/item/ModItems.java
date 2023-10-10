@@ -142,6 +142,7 @@ public class ModItems {
         gemResourceRegister.registerGemGroup("sapphire", new DataTable(false, 0, false, false,"Forge"));
         gemResourceRegister.registerGemGroup("silicon", new DataTable(false, 0, false, false,"Forge"));
         gemResourceRegister.registerGemGroup("sulfur", new DataTable(false, 0, false, false,"Forge"));
+        gemResourceRegister.registerGemGroup("umbralite", new DataTable(false, 0, true, false,"Scalar Utils 5: Arsenal Addon"));
         gemResourceRegister.registerGemGroup("vibrant_crystal", new DataTable(false, 0, false, false,"Ender IO"));
 
         // Register Everything Not Done Through ResourceRegister

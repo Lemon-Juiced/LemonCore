@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "lemon_core:prescient_crystal"
+            "tag": "forge:gems/prescient_crystal"
         }
     ],
     "result": {

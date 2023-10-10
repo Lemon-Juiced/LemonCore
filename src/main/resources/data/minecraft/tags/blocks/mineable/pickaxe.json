@@ -66,6 +66,7 @@
     "lemon_core:sapphire_block",
     "lemon_core:silicon_block",
     "lemon_core:sulfur_block",
+    "lemon_core:umbralite_block",
     "lemon_core:vibrant_crystal_block"
   ]
 }

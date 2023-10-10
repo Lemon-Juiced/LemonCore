@@ -18,6 +18,7 @@
   "item.lemon_core.sapphire": "Sapphire",
   "item.lemon_core.silicon": "Silicon",
   "item.lemon_core.sulfur": "Sulfur",
+  "item.lemon_core.umbralite": "Umbralite",
   "item.lemon_core.vibrant_crystal": "Vibrant Crystal",
 
   "item.lemon_core.anglesite_fragment": "Anglesite Fragment (PbSO4)",
@@ -38,13 +39,15 @@
   "item.lemon_core.sapphire_fragment": "Sapphire Fragment",
   "item.lemon_core.silicon_fragment": "Silicon Fragment",
   "item.lemon_core.sulfur_fragment": "Sulfur Fragment",
+  "item.lemon_core.umbralite_fragment": "Umbralite Fragment",
+  "item.lemon_core.vibrant_crystal_fragment": "Vibrant Crystal Fragment",
+
   "item.lemon_core.amethyst_fragment": "Amethyst Fragment",
   "item.lemon_core.diamond_fragment": "Diamond Fragment",
   "item.lemon_core.emerald_fragment": "Emerald Fragment",
   "item.lemon_core.ender_pearl_fragment": "Ender Pearl Fragment",
   "item.lemon_core.lapis_lazuli_fragment": "Lapis Lazuli Fragment",
   "item.lemon_core.nether_quartz_fragment": "Nether Quartz Fragment",
-  "item.lemon_core.vibrant_crystal_fragment": "Vibrant Crystal Fragment",
 
   "item.lemon_core.anglesite_dust": "Anglesite Dust (PbSO4)",
   "item.lemon_core.apatite_dust": "Apatite Dust",
@@ -67,6 +70,7 @@
   "item.lemon_core.sapphire_dust": "Sapphire Dust",
   "item.lemon_core.silicon_dust": "Silicon Dust",
   "item.lemon_core.sulfur_dust": "Sulfur Dust",
+  "item.lemon_core.umbralite_dust": "Umbralite Dust",
   "item.lemon_core.vibrant_crystal_dust": "Vibrant Crystal Dust",
 
   "item.lemon_core.amethyst_dust": "Amethyst Dust",
@@ -252,6 +256,7 @@
   "block.lemon_core.sapphire_block": "Block of Sapphire",
   "block.lemon_core.silicon_block": "Block of Silicon",
   "block.lemon_core.sulfur_block": "Block of Sulfur",
+  "block.lemon_core.umbralite_block": "Block of Umbralite",
   "block.lemon_core.vibrant_crystal_block": "Block of Vibrant Crystal",
 
   "block.lemon_core.aluminum_block": "Block of Aluminum",

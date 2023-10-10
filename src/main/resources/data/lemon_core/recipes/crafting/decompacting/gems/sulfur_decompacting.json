@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "lemon_core:sulfur"
+            "tag": "forge:gems/sulfur"
         }
     ],
     "result": {
