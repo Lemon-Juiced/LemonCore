@@ -23,6 +23,8 @@
     "#forge:storage_blocks/tungsten",
     "#forge:storage_blocks/uranium",
     "#forge:storage_blocks/zinc",
+    "#forge:storage_blocks/zweiite",
+
     "#forge:storage_blocks/brass",
     "#forge:storage_blocks/bronze",
     "#forge:storage_blocks/conductive_alloy",
@@ -49,6 +51,7 @@
     "#forge:storage_blocks/anglesite",
     "#forge:storage_blocks/apatite",
     "#forge:storage_blocks/benitoite",
+    "#forge:storage_blocks/blutstein",
     "#forge:storage_blocks/certus_quartz",
     "#forge:storage_blocks/charged_certus_quartz",
     "#forge:storage_blocks/cinnabar",

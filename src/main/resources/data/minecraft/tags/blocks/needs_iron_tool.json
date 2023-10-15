@@ -11,6 +11,7 @@
     "lemon_core:osmium_block",
     "lemon_core:silver_block",
     "lemon_core:uranium_block",
+    "lemon_core:zweiite_block",
 
     "lemon_core:brass_block",
     "lemon_core:bronze_block",
@@ -29,6 +30,7 @@
 
     "lemon_core:anglesite_block",
     "lemon_core:benitoite_block",
+    "lemon_core:blutstein_block",
     "lemon_core:dimensional_shard_block",
     "lemon_core:peridot_block",
     "lemon_core:ruby_block",

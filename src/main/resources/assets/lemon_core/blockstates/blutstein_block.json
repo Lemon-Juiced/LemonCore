@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "lemon_core:block/blutstein_block" }
+  }
+}

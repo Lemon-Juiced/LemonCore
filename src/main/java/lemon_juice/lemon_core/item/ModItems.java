@@ -22,44 +22,44 @@ public class ModItems {
     /***** Gems *****/
     /*** Gems ***/
     // Vanilla Compat (Fragments)
-    public static final RegistryObject<Item> AMETHYST_FRAGMENT = ITEMS.register("amethyst_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> DIAMOND_FRAGMENT = ITEMS.register("diamond_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> EMERALD_FRAGMENT = ITEMS.register("emerald_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> ENDER_PEARL_FRAGMENT = ITEMS.register("ender_pearl_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT = ITEMS.register("lapis_lazuli_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT = ITEMS.register("nether_quartz_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
+    public static final RegistryObject<Item> AMETHYST_FRAGMENT = ITEMS.register("amethyst_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> DIAMOND_FRAGMENT = ITEMS.register("diamond_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> EMERALD_FRAGMENT = ITEMS.register("emerald_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> ENDER_PEARL_FRAGMENT = ITEMS.register("ender_pearl_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT = ITEMS.register("lapis_lazuli_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT = ITEMS.register("nether_quartz_fragment", () -> new FragmentItem(new Item.Properties(), new DataTable("Vanilla")));
     // Vanilla Compat (Dusts)
-    public static final RegistryObject<Item> AMETHYST_DUST = ITEMS.register("amethyst_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> CHARCOAL_DUST = ITEMS.register("charcoal_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> DIAMOND_DUST = ITEMS.register("diamond_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> EMERALD_DUST = ITEMS.register("emerald_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> ENDER_PEARL_DUST = ITEMS.register("ender_pearl_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> LAPIS_LAZULI_DUST = ITEMS.register("lapis_lazuli_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> NETHER_QUARTZ_DUST = ITEMS.register("nether_quartz_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
+    public static final RegistryObject<Item> AMETHYST_DUST = ITEMS.register("amethyst_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> CHARCOAL_DUST = ITEMS.register("charcoal_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> DIAMOND_DUST = ITEMS.register("diamond_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> EMERALD_DUST = ITEMS.register("emerald_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> ENDER_PEARL_DUST = ITEMS.register("ender_pearl_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> LAPIS_LAZULI_DUST = ITEMS.register("lapis_lazuli_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> NETHER_QUARTZ_DUST = ITEMS.register("nether_quartz_dust", () -> new GemDustItem(new Item.Properties(), new DataTable("Vanilla")));
 
     /***** Metals ****/
     // Vanilla Compat (Nuggets)
-    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new NuggetItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new NuggetItem(new Item.Properties(), new DataTable(false, 0, true, false, "Vanilla")));
+    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new NuggetItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new NuggetItem(new Item.Properties(), new DataTable("Vanilla")));
     // Vanilla Compat (Dusts)
-    public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> GOLD_DUST = ITEMS.register("gold_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
+    public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> GOLD_DUST = ITEMS.register("gold_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable("Vanilla")));
     public static final RegistryObject<Item> NETHERITE_DUST = ITEMS.register("netherite_dust", () -> new MetalDustItem(new Item.Properties(), new DataTable(false, 0, true, false, "Vanilla")));
 
     /***** Other ******/
     // Vanilla Compat
-    public static final RegistryObject<Item> GRAIN_OF_GLOWSTONE_DUST = ITEMS.register("grain_of_glowstone_dust", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> GRAIN_OF_REDSTONE_DUST = ITEMS.register("grain_of_redstone_dust", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> OBSIDIAN_SHARD = ITEMS.register("obsidian_shard", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
-    public static final RegistryObject<Item> OBSIDIAN_DUST = ITEMS.register("obsidian_dust", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, false, "Vanilla")));
+    public static final RegistryObject<Item> GRAIN_OF_GLOWSTONE_DUST = ITEMS.register("grain_of_glowstone_dust", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, true, "Vanilla")));
+    public static final RegistryObject<Item> GRAIN_OF_REDSTONE_DUST = ITEMS.register("grain_of_redstone_dust", () -> new AbstractBaseItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> OBSIDIAN_SHARD = ITEMS.register("obsidian_shard", () -> new AbstractBaseItem(new Item.Properties(), new DataTable("Vanilla")));
+    public static final RegistryObject<Item> OBSIDIAN_DUST = ITEMS.register("obsidian_dust", () -> new AbstractBaseItem(new Item.Properties(), new DataTable("Vanilla")));
     public static final RegistryObject<Item> TINY_CHARCOAL = ITEMS.register("tiny_charcoal", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 200, false, false, "Vanilla")));
     public static final RegistryObject<Item> TINY_COAL = ITEMS.register("tiny_coal", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 200, false, false, "Vanilla")));
     // Ender IO Compat
-    public static final RegistryObject<Item> GRAINS_OF_INFINITY  = ITEMS.register("grains_of_infinity", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, false, "Ender IO")));
+    public static final RegistryObject<Item> GRAINS_OF_INFINITY  = ITEMS.register("grains_of_infinity", () -> new AbstractBaseItem(new Item.Properties(), new DataTable("Ender IO")));
     // Xychron Compat
-    public static final RegistryObject<Item> COLORLESS_XYCHRONITE_CRYSTAL  = ITEMS.register("colorless_xychronite_crystal", () -> new AbstractBaseItem(new Item.Properties(), new DataTable(false, 0, false, false, "Xychron")));
+    public static final RegistryObject<Item> COLORLESS_XYCHRONITE_CRYSTAL  = ITEMS.register("colorless_xychronite_crystal", () -> new AbstractBaseItem(new Item.Properties(), new DataTable("Xychron")));
 
     /***** Ore Crushing Hammers ******/
     public static final RegistryObject<Item> WOODEN_ORE_CRUSHING_HAMMER = ITEMS.register("wooden_ore_crushing_hammer", () -> new OreCrushingHammerItem(new Item.Properties()));
@@ -98,6 +98,7 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("tungsten", new DataTable(false, 0, false, false, "Forge"));
         metalResourceRegister.registerMetalGroup("uranium", new DataTable(false, 0, false, false, "Forge"));
         metalResourceRegister.registerMetalGroup("zinc", new DataTable(false, 0, false, false, "Create"));
+        metalResourceRegister.registerMetalGroup("zweiite", new DataTable(false, 0, false, false, "Scalar Utils 5: Arsenal Addon"));
         /* Alloys */
         metalResourceRegister.registerMetalGroup("brass", new DataTable(true, 0, false, false, "Create"));
         metalResourceRegister.registerMetalGroup("bronze", new DataTable(true, 0, false, false, "Forge"));
@@ -126,6 +127,7 @@ public class ModItems {
         gemResourceRegister.registerGemGroup("anglesite", new DataTable(false, 0, false, false, "Extreme Reactors"));
         gemResourceRegister.registerGemGroup("apatite", new DataTable(false, 0, false, false, "Forge"));
         gemResourceRegister.registerGemGroup("benitoite", new DataTable(false, 0, false, false,"Extreme Reactors"));
+        gemResourceRegister.registerGemGroup("blutstein", new DataTable(false, 0, false, false,"Scalar Utils 5: Arsenal Addon"));
         gemResourceRegister.registerGemGroup("certus_quartz", new DataTable(false, 0, false, false,"Applied Energistics 2"));
         gemResourceRegister.registerGemGroup("charged_certus_quartz", new DataTable(false, 0, false, true,"Applied Energistics 2"));
         gemResourceRegister.registerGemGroup("cinnabar", new DataTable(false, 0, false, false,"Thermal Series"));

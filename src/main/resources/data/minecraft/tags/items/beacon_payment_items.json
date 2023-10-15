@@ -22,6 +22,7 @@
     "lemon_core:tungsten_ingot",
     "lemon_core:uranium_ingot",
     "lemon_core:zinc_ingot",
+    "lemon_core:zweiite_ingot",
 
     "lemon_core:brass_ingot",
     "lemon_core:bronze_ingot",
@@ -49,6 +50,7 @@
     "lemon_core:anglesite",
     "lemon_core:apatite",
     "lemon_core:benitoite",
+    "lemon_core:blutstein",
     "lemon_core:certus_quartz",
     "lemon_core:charged_certus_quartz",
     "lemon_core:cinnabar",

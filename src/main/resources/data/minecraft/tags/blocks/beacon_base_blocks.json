@@ -4,8 +4,9 @@
     "lemon_core:aluminum_block",
     "lemon_core:anglesite_block",
     "lemon_core:apatite_block",
-    "lemon_core:blutonium_block",
     "lemon_core:benitoite_block",
+    "lemon_core:blutonium_block",
+    "lemon_core:blutstein_block",
     "lemon_core:brass_block",
     "lemon_core:bronze_block",
     "lemon_core:calorite_block",
@@ -65,6 +66,7 @@
     "lemon_core:uranium_block",
     "lemon_core:vibrant_alloy_block",
     "lemon_core:vibrant_crystal_block",
-    "lemon_core:zinc_block"
+    "lemon_core:zinc_block",
+    "lemon_core:zweiite_block"
   ]
 }

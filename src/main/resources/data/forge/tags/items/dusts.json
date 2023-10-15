@@ -7,6 +7,7 @@
     "#forge:dusts/anglesite",
     "#forge:dusts/apatite",
     "#forge:dusts/benitoite",
+    "#forge:dusts/blutstein",
     "#forge:dusts/certus_quartz",
     "#forge:dusts/charcoal",
     "#forge:dusts/charged_certus_quartz",
@@ -60,6 +61,8 @@
     "#forge:dusts/tungsten",
     "#forge:dusts/uranium",
     "#forge:dusts/zinc",
+    "#forge:dusts/zweiite",
+
     "#forge:dusts/brass",
     "#forge:dusts/bronze",
     "#forge:dusts/conductive_alloy",

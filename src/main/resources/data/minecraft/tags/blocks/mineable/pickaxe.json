@@ -23,6 +23,7 @@
     "lemon_core:tungsten_block",
     "lemon_core:uranium_block",
     "lemon_core:zinc_block",
+    "lemon_core:zweiite_block",
 
     "lemon_core:brass_block",
     "lemon_core:bronze_block",
@@ -50,6 +51,7 @@
     "lemon_core:anglesite_block",
     "lemon_core:apatite_block",
     "lemon_core:benitoite_block",
+    "lemon_core:blutstein_block",
     "lemon_core:certus_quartz_block",
     "lemon_core:charged_certus_quartz_block",
     "lemon_core:cinnabar_block",

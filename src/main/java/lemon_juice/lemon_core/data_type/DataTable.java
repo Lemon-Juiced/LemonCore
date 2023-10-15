@@ -22,6 +22,19 @@ public class DataTable {
     }
 
     /**
+     * Produces a <code>DataTable</code> that is marked false, other than its modID.
+     *
+     * @param modID The ID of the mod used in the tooltips, "" if none
+     */
+    public DataTable(String modID){
+        this.isAlloy = false;
+        this.isBurnable = 0;
+        this.isFireproof = false;
+        this.isGlowing = false;
+        this.modID = modID;
+    }
+
+    /**
      * Produces a <code>DataTable</code> that is marked specified by parameter.
      *
      * @param isAlloy true if an <code>Item</code> is an alloy, false otherwise
