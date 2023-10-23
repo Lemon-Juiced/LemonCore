@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:ingots/magnetite"
+      "tag": "forge:ingots/inanite"
     }
   },
   "result": {
-    "item": "lemon_core:magnetite_block",
+    "item": "lemon_core:inanite_block",
     "count": 1
   }
 }

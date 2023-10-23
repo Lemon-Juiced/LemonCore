@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:ingots/magnetite"
+            "tag": "forge:storage_blocks/magentite"
         }
     ],
     "result": {
-        "item": "lemon_core:magnetite_nugget",
+        "item": "lemon_core:magentite_ingot",
         "count": 9
     }
 }

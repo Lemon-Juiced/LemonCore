@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:nuggets/magnetite"
+      "tag": "forge:nuggets/magentite"
     }
   },
   "result": {
-    "item": "lemon_core:magnetite_ingot",
+    "item": "lemon_core:magentite_ingot",
     "count": 1
   }
 }

@@ -83,10 +83,11 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("cyanite", new DataTable(false, 0, false, false, "Bigger Reactors / Extreme Reactors"));
         metalResourceRegister.registerMetalGroup("desh", new DataTable(false, 0, false, false, "Ad Astra"));
         metalResourceRegister.registerMetalGroup("graphite", new DataTable(false, 0, false, false, "Bigger Reactors / Extreme Reactors"));
+        metalResourceRegister.registerMetalGroup("inanite", new DataTable(false, 0, false, false, "Extreme Reactors"));
         metalResourceRegister.registerMetalGroup("insanite", new DataTable(false, 0, false, false, "Extreme Reactors"));
         metalResourceRegister.registerMetalGroup("lead", new DataTable(false, 0, false, false, "Forge"));
         metalResourceRegister.registerMetalGroup("ludicrite", new DataTable(false, 0, false, false,  "Bigger Reactors / Extreme Reactors"));
-        metalResourceRegister.registerMetalGroup("magnetite", new DataTable(false, 0, false, false, "Extreme Reactors"));
+        metalResourceRegister.registerMetalGroup("magentite", new DataTable(false, 0, false, false, "Extreme Reactors"));
         metalResourceRegister.registerMetalGroup("manganese", new DataTable(false, 0, false, false, "Better Steel"));
         metalResourceRegister.registerMetalGroup("nickel", new DataTable(false, 0, false, false, "Forge"));
         metalResourceRegister.registerMetalGroup("osmium", new DataTable(false, 0, false, false, "Mekanism"));

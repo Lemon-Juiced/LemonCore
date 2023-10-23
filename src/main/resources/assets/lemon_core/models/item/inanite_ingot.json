@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lemon_core:item/magnetite_nugget"
+    "layer0": "lemon_core:item/inanite_ingot"
   }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lemon_core:magnetite_block"
+          "name": "lemon_core:magentite_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lemon_core:blocks/magnetite_block"
+  "random_sequence": "lemon_core:blocks/magentite_block"
 }

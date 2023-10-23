@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/inanite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:inanite_nugget",
+        "count": 9
+    }
+}

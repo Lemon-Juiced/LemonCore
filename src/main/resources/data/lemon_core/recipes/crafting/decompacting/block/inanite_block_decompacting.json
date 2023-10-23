@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:storage_blocks/magnetite"
+            "tag": "forge:storage_blocks/inanite"
         }
     ],
     "result": {
-        "item": "lemon_core:magnetite_ingot",
+        "item": "lemon_core:inanite_ingot",
         "count": 9
     }
 }

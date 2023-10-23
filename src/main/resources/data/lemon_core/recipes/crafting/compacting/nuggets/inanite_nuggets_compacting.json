@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/inanite"
+    }
+  },
+  "result": {
+    "item": "lemon_core:inanite_ingot",
+    "count": 1
+  }
+}

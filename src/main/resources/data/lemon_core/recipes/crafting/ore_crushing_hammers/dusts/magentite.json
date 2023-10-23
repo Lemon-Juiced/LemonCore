@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/magnetite"
+      "gems": "forge:ingots/magentite"
     },
     {
       "tag": "forge:ore_crushing_hammers"
     }
   ],
   "result": {
-    "item": "lemon_core:magnetite_dust",
+    "item": "lemon_core:magentite_dust",
     "count": 1
   }
 }
