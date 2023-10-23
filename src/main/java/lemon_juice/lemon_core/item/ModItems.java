@@ -115,8 +115,8 @@ public class ModItems {
         metalResourceRegister.registerMetalGroup("manyullyn", new DataTable(true, 0, false, false, "Tinkers Construct"));
         metalResourceRegister.registerMetalGroup("necronite", new DataTable(true, 0, true, false, "Scalar Utils 5"));
         metalResourceRegister.registerMetalGroup("pulsating_alloy", new DataTable(true, 0, false, false, "Ender IO"));
+        metalResourceRegister.registerMetalGroup("quartz_enriched_iron", new DataTable(true, 0, false, false, "Refined Storage"));
         metalResourceRegister.registerMetalGroup("redstone_alloy", new DataTable(true, 0, false, false, "Ender IO"));
-        metalResourceRegister.registerMetalGroup("refined_iron", new DataTable(true, 0, false, false, "Refined Storage"));
         metalResourceRegister.registerMetalGroup("rose_gold", new DataTable(true, 0, false, false, "Thermal Series"));
         metalResourceRegister.registerMetalGroup("signalum", new DataTable(true, 0, false, false, "Thermal Series"));
         metalResourceRegister.registerMetalGroup("soularium",new DataTable(true, 0, false, false,  "Ender IO"));

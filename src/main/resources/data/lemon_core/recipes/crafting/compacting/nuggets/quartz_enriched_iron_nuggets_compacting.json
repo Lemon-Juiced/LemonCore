@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:ingots/refined_iron"
+      "tag": "forge:nuggets/quartz_enriched_iron"
     }
   },
   "result": {
-    "item": "lemon_core:refined_iron_block",
+    "item": "lemon_core:quartz_enriched_iron_ingot",
     "count": 1
   }
 }

@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:storage_blocks/refined_iron"
+            "tag": "forge:storage_blocks/quartz_enriched_iron"
         }
     ],
     "result": {
-        "item": "lemon_core:refined_iron_ingot",
+        "item": "lemon_core:quartz_enriched_iron_ingot",
         "count": 9
     }
 }

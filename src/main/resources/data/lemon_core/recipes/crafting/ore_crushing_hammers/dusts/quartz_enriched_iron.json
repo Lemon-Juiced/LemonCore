@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/refined_iron"
+      "gems": "forge:ingots/quartz_enriched_iron"
     },
     {
       "tag": "forge:ore_crushing_hammers"
     }
   ],
   "result": {
-    "item": "lemon_core:refined_iron_dust",
+    "item": "lemon_core:quartz_enriched_iron_dust",
     "count": 1
   }
 }
