@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/signalum"
+      "tag": "forge:ingots/signalum"
     },
     {
       "tag": "forge:ore_crushing_hammers"

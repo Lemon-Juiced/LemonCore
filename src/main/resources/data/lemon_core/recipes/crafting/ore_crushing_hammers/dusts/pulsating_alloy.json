@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/pulsating_alloy"
+      "tag": "forge:ingots/pulsating_alloy"
     },
     {
       "tag": "forge:ore_crushing_hammers"

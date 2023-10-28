@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:gems/sulfur"
+      "tag": "forge:gems/sulfur"
     },
     {
       "tag": "forge:ore_crushing_hammers"

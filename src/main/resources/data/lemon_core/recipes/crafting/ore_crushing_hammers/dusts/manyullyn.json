@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/manyullyn"
+      "tag": "forge:ingots/manyullyn"
     },
     {
       "tag": "forge:ore_crushing_hammers"

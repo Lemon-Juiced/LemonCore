@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:gems/dimensional_shard"
+      "tag": "forge:gems/dimensional_shard"
     },
     {
       "tag": "forge:ore_crushing_hammers"

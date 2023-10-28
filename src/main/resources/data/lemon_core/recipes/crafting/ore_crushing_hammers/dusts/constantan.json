@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/constantan"
+      "tag": "forge:ingots/constantan"
     },
     {
       "tag": "forge:ore_crushing_hammers"

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/end_steel"
+      "tag": "forge:ingots/end_steel"
     },
     {
       "tag": "forge:ore_crushing_hammers"
