@@ -21,6 +21,6 @@ public class OreCrushingHammerItem extends Item {
 
     @Override
     public ItemStack getCraftingRemainingItem(ItemStack itemStack) {
-        return itemStack;
+        return new ItemStack(itemStack.getItem());
     }
 }

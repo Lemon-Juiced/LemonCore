@@ -8,7 +8,6 @@ version="${mod_version}"
 displayName="${mod_name}"
 logoFile="lemon_core.png"
 authors="${mod_authors}"
-
 description='''${mod_description}'''
 
 [[dependencies.${mod_id}]]
