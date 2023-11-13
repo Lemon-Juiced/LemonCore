@@ -35,11 +35,19 @@ minecraft {
 
         client {
             property 'forge.enabledGameTestNamespaces', mod_id
+
+            //Mixin Stuff
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
+
+            //Mixin Stuff
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
 
         gameTestServer {
@@ -72,6 +80,9 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.0.0.15")
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-common:15.0.0.15")
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.0.0.15")
+
+    // AE2
+    runtimeOnly fg.deobf("curse.maven:applied-energistics-2-223794:4857895")
 
     // Ender IO
     runtimeOnly fg.deobf("curse.maven:ender-io-64578:4762194")

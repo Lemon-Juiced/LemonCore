@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lemon_core:certus_quartz"
+    "lemon_core:certus_quartz",
+    "lemon_core:charged_certus_quartz"
   ]
 }
