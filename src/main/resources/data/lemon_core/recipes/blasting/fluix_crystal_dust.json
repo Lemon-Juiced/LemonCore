@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "tag": "forge:dusts/fluix_crystal"
+    "tag": "forge:dusts/fluix"
   },
   "result": "lemon_core:fluix_crystal",
   "experience": 0.1,
