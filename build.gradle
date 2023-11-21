@@ -81,6 +81,10 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-common:15.0.0.15")
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.0.0.15")
 
+    // Lembrary Dependency
+    compileOnly fg.deobf("curse.maven:lembrary-937474:4867703")
+    runtimeOnly fg.deobf("curse.maven:lembrary-937474:4867703")
+
     // AE2
     runtimeOnly fg.deobf("curse.maven:applied-energistics-2-223794:4857895")
 
