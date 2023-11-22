@@ -1,13 +1,13 @@
 package lemon_juice.lemon_core.creativetab.util;
 
 import lemon_juice.item.custom.OreCrushingHammerItem;
-import lemon_juice.lemon_core.item.ModItems;
+import lemon_juice.lemon_core.item.LemonCoreItems;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
 import lemon_juice.lemon_core.item.custom.metal.IngotItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.RegistryObject;
 
-import static lemon_juice.lemon_core.creativetab.ModCreativeTabs.*;
+import static lemon_juice.lemon_core.creativetab.LemonCoreCreativeTabs.*;
 
 public class CreativeTabUtils {
 
@@ -19,7 +19,7 @@ public class CreativeTabUtils {
      */
     public static Item getFirstItem(String tabType){
         Item tabItem = null;
-        for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()){
+        for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries()){
             if(tabType.equals(gemTabType)){
                 if(item.get() instanceof GemItem) {
                     tabItem = item.get();
@@ -31,7 +31,7 @@ public class CreativeTabUtils {
                     break; //Out of the for-loop
                 }
             } else if(tabType.equals(vanillaPlusTabType)){
-                tabItem = ModItems.TINY_COAL.get();
+                tabItem = LemonCoreItems.TINY_COAL.get();
                 break; //Out of the for-loop
             } else { //This catches "other"
                 if(item.get() instanceof OreCrushingHammerItem) {

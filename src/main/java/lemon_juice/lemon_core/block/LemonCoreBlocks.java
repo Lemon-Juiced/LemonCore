@@ -2,9 +2,8 @@ package lemon_juice.lemon_core.block;
 
 import lemon_juice.data_type.DataTable;
 import lemon_juice.lemon_core.LemonCore;
-import lemon_juice.lemon_core.item.ModItems;
+import lemon_juice.lemon_core.item.LemonCoreItems;
 import lemon_juice.lemon_core.item.custom.blockitem.AbstractBaseBlockItem;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class ModBlocks {
+public class LemonCoreBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, LemonCore.MOD_ID);
 
     /******************************** Registry ********************************/
@@ -25,7 +24,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, DataTable table) {
-        return ModItems.ITEMS.register(name, () -> new AbstractBaseBlockItem(block.get(), new Item.Properties(), table));
+        return LemonCoreItems.ITEMS.register(name, () -> new AbstractBaseBlockItem(block.get(), new Item.Properties(), table));
     }
 
     public static void register(IEventBus eventBus) {

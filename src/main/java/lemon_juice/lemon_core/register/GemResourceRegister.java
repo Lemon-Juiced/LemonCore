@@ -1,9 +1,9 @@
 package lemon_juice.lemon_core.register;
 
 import lemon_juice.data_type.DataTable;
-import lemon_juice.lemon_core.block.ModBlocks;
+import lemon_juice.lemon_core.block.LemonCoreBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
-import lemon_juice.lemon_core.item.ModItems;
+import lemon_juice.lemon_core.item.LemonCoreItems;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
 import lemon_juice.lemon_core.item.custom.gem.GemDustItem;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
@@ -36,12 +36,12 @@ public class GemResourceRegister {
         if(name.equals("coal_coke")) registerCoalCoke(name, table);
         else {
             //Items
-            ModItems.ITEMS.register(name, () -> new GemItem(new Item.Properties(), table));
-            ModItems.ITEMS.register(name + "_fragment", () -> new FragmentItem(new Item.Properties(), table));
-            ModItems.ITEMS.register(name + "_dust", () -> new GemDustItem(new Item.Properties(), table));
+            LemonCoreItems.ITEMS.register(name, () -> new GemItem(new Item.Properties(), table));
+            LemonCoreItems.ITEMS.register(name + "_fragment", () -> new FragmentItem(new Item.Properties(), table));
+            LemonCoreItems.ITEMS.register(name + "_dust", () -> new GemDustItem(new Item.Properties(), table));
 
             //Blocks & BlockItems
-            ModBlocks.registerBlock(name + "_block", () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)), table);
+            LemonCoreBlocks.registerBlock(name + "_block", () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)), table);
 
         }
     }
@@ -55,12 +55,12 @@ public class GemResourceRegister {
      */
     public void registerCoalCoke(String name, DataTable table){
         //Items
-        ModItems.ITEMS.register(name, () -> new GemItem(new Item.Properties(), table));
+        LemonCoreItems.ITEMS.register(name, () -> new GemItem(new Item.Properties(), table));
 
         //This is done so the dust can't be used as fuel
-        ModItems.ITEMS.register(name + "_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(table.getIsAlloy(), 0, table.getIsFireproof(), table.getIsGlowing(), table.getModID())));
+        LemonCoreItems.ITEMS.register(name + "_dust", () -> new GemDustItem(new Item.Properties(), new DataTable(table.getIsAlloy(), 0, table.getIsFireproof(), table.getIsGlowing(), table.getModID())));
 
         //Blocks & BlockItems
-        ModBlocks.registerBlock(name + "_block", () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)), table);
+        LemonCoreBlocks.registerBlock(name + "_block", () -> new GemBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)), table);
     }
 }
