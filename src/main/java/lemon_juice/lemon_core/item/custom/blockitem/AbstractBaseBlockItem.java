@@ -1,6 +1,6 @@
 package lemon_juice.lemon_core.item.custom.blockitem;
 
-import lemon_juice.lemon_core.data_type.DataTable;
+import lemon_juice.data_type.DataTable;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;

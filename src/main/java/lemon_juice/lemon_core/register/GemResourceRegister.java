@@ -1,8 +1,8 @@
 package lemon_juice.lemon_core.register;
 
+import lemon_juice.data_type.DataTable;
 import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
-import lemon_juice.lemon_core.data_type.DataTable;
 import lemon_juice.lemon_core.item.ModItems;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
 import lemon_juice.lemon_core.item.custom.gem.GemDustItem;

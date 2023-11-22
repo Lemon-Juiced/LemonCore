@@ -1,5 +1,6 @@
 package lemon_juice.lemon_core.creativetab;
 
+import lemon_juice.item.custom.OreCrushingHammerItem;
 import lemon_juice.lemon_core.LemonCore;
 import lemon_juice.lemon_core.block.ModBlocks;
 import lemon_juice.lemon_core.block.custom.GemBlock;
@@ -7,7 +8,6 @@ import lemon_juice.lemon_core.block.custom.MetalBlock;
 import lemon_juice.lemon_core.item.ModItems;
 import lemon_juice.lemon_core.item.custom.gem.GemDustItem;
 import lemon_juice.lemon_core.item.custom.metal.MetalDustItem;
-import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
 import lemon_juice.lemon_core.item.custom.metal.IngotItem;

@@ -1,9 +1,9 @@
 package lemon_juice.lemon_core.creativetab.util;
 
+import lemon_juice.item.custom.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.ModItems;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
 import lemon_juice.lemon_core.item.custom.metal.IngotItem;
-import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.RegistryObject;
 

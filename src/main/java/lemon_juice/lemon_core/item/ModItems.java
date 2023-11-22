@@ -1,11 +1,11 @@
 package lemon_juice.lemon_core.item;
 
+import lemon_juice.data_type.DataTable;
+import lemon_juice.item.custom.OreCrushingHammerItem;
 import lemon_juice.lemon_core.LemonCore;
-import lemon_juice.lemon_core.data_type.DataTable;
 import lemon_juice.lemon_core.item.custom.AbstractBaseItem;
 import lemon_juice.lemon_core.item.custom.gem.GemDustItem;
 import lemon_juice.lemon_core.item.custom.metal.MetalDustItem;
-import lemon_juice.lemon_core.item.custom.other.OreCrushingHammerItem;
 import lemon_juice.lemon_core.item.custom.gem.FragmentItem;
 import lemon_juice.lemon_core.item.custom.metal.NuggetItem;
 import lemon_juice.lemon_core.register.GemResourceRegister;
