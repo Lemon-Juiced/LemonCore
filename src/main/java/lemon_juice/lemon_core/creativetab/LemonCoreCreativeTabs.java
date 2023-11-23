@@ -18,10 +18,11 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static lemon_juice.lemon_core.creativetab.util.CreativeTabUtils.getFirstItem;
 
@@ -33,22 +34,22 @@ public class LemonCoreCreativeTabs {
     public static String vanillaPlusTabType = "vanilla_plus";
     public static String otherTabType = "other";
 
-    public static final RegistryObject<CreativeModeTab> LEMON_CORE_GEMS_TAB = CREATIVE_MODE_TABS.register("lemon_core_gems", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LEMON_CORE_GEMS_TAB = CREATIVE_MODE_TABS.register("lemon_core_gems", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.lemon_core_gems"))
             .icon(() -> new ItemStack(getFirstItem(gemTabType)))
             .build());
 
-    public static final RegistryObject<CreativeModeTab> LEMON_CORE_METALS_TAB = CREATIVE_MODE_TABS.register("lemon_core_metals", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LEMON_CORE_METALS_TAB = CREATIVE_MODE_TABS.register("lemon_core_metals", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.lemon_core_metals"))
             .icon(() -> new ItemStack(getFirstItem(metalTabType)))
             .build());
 
-    public static final RegistryObject<CreativeModeTab> LEMON_CORE_VANILLA_PLUS_TAB = CREATIVE_MODE_TABS.register("lemon_core_vanilla_plus", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LEMON_CORE_VANILLA_PLUS_TAB = CREATIVE_MODE_TABS.register("lemon_core_vanilla_plus", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.lemon_core_vanilla_plus"))
             .icon(() -> new ItemStack(getFirstItem(vanillaPlusTabType)))
             .build());
 
-    public static final RegistryObject<CreativeModeTab> LEMON_CORE_OTHER_TAB = CREATIVE_MODE_TABS.register("lemon_core_other", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LEMON_CORE_OTHER_TAB = CREATIVE_MODE_TABS.register("lemon_core_other", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.lemon_core_other"))
             .icon(() -> new ItemStack(getFirstItem(otherTabType)))
             .build());
@@ -57,52 +58,60 @@ public class LemonCoreCreativeTabs {
         if(event.getTab() == LEMON_CORE_GEMS_TAB.get()){
             /* Items */
             // Gems
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
                 if(item.get() instanceof GemItem)
                     event.accept(item.get());
+            }
             // Fragments
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof FragmentItem fragmentItem)
-                    if(!fragmentItem.getModID().equals("Vanilla"))
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof FragmentItem fragmentItem)
+                    if (!fragmentItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            }
             // Dusts
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof GemDustItem gemDustItem)
-                    if(!gemDustItem.getModID().equals("Vanilla"))
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof GemDustItem gemDustItem)
+                    if (!gemDustItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            }
 
             event.accept(new ItemStack(LemonCoreItems.GRAINS_OF_INFINITY.get()));
             event.accept(new ItemStack(LemonCoreItems.COLORLESS_XYCHRONITE_CRYSTAL.get()));
 
             /* Blocks */
             // Gems
-            for(RegistryObject<Block> block : LemonCoreBlocks.BLOCKS.getEntries())
-                if(block.get() instanceof GemBlock)
+            for (DeferredHolder<Block, ? extends Block> block : LemonCoreBlocks.BLOCKS.getEntries()) {
+                if (block.get() instanceof GemBlock)
                     event.accept(block.get());
+            }
         }
 
         if(event.getTab() == LEMON_CORE_METALS_TAB.get()){
             /* Items */
             // Ingots
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof IngotItem)
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof IngotItem)
                     event.accept(item.get());
+            }
             // Nuggets
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof NuggetItem nuggetItem)
-                    if(!nuggetItem.getModID().equals("Vanilla"))
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof NuggetItem nuggetItem)
+                    if (!nuggetItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            }
             // Dusts
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof MetalDustItem metalDustItem)
-                    if(!metalDustItem.getModID().equals("Vanilla"))
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof MetalDustItem metalDustItem)
+                    if (!metalDustItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            }
 
             /* Blocks */
             // Ingots
-            for(RegistryObject<Block> block : LemonCoreBlocks.BLOCKS.getEntries())
-                if(block.get() instanceof MetalBlock)
+            for (DeferredHolder<Block, ? extends Block> block : LemonCoreBlocks.BLOCKS.getEntries()) {
+                if (block.get() instanceof MetalBlock)
                     event.accept(block.get());
+            }
         }
 
         if(event.getTab() == LEMON_CORE_VANILLA_PLUS_TAB.get()){
@@ -114,15 +123,17 @@ public class LemonCoreCreativeTabs {
             event.accept(new ItemStack(LemonCoreItems.COPPER_DUST.get()));
             event.accept(new ItemStack(LemonCoreItems.NETHERITE_DUST.get()));
 
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof FragmentItem fragmentItem)
-                    if(fragmentItem.getModID().equals("Vanilla"))
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof FragmentItem fragmentItem)
+                    if (fragmentItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            }
 
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries())
-                if(item.get() instanceof GemDustItem gemDustItem)
-                    if(gemDustItem.getModID().equals("Vanilla"))
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
+                if (item.get() instanceof GemDustItem gemDustItem)
+                    if (gemDustItem.getModID().equals("Vanilla"))
                         event.accept(item.get());
+            }
 
             event.accept(new ItemStack(LemonCoreItems.GRAIN_OF_GLOWSTONE_DUST.get()));
             event.accept(new ItemStack(LemonCoreItems.GRAIN_OF_REDSTONE_DUST.get()));
@@ -134,7 +145,7 @@ public class LemonCoreCreativeTabs {
 
         if(event.getTab() == LEMON_CORE_OTHER_TAB.get()){
             // Ore Crushing Hammers
-            for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries()) if(item.get() instanceof OreCrushingHammerItem) event.accept(item.get());
+            for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) if(item.get() instanceof OreCrushingHammerItem) event.accept(item.get());
         }
 
     }

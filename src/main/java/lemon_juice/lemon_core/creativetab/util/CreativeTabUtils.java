@@ -5,7 +5,7 @@ import lemon_juice.lemon_core.item.LemonCoreItems;
 import lemon_juice.lemon_core.item.custom.gem.GemItem;
 import lemon_juice.lemon_core.item.custom.metal.IngotItem;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import static lemon_juice.lemon_core.creativetab.LemonCoreCreativeTabs.*;
 
@@ -19,7 +19,7 @@ public class CreativeTabUtils {
      */
     public static Item getFirstItem(String tabType){
         Item tabItem = null;
-        for(RegistryObject<Item> item : LemonCoreItems.ITEMS.getEntries()){
+        for (DeferredHolder<Item, ? extends Item> item: LemonCoreItems.ITEMS.getEntries()) {
             if(tabType.equals(gemTabType)){
                 if(item.get() instanceof GemItem) {
                     tabItem = item.get();
