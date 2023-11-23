@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:gems/vibrant_crystal"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:vibrant_crystal_fragment",
+        "count": 9
+    }
+}

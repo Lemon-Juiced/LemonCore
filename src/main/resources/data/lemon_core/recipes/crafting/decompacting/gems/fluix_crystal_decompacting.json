@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "lemon_core:fluix_crystal"
+            "tag": "forge:gems/fluix"
         }
     ],
     "result": {

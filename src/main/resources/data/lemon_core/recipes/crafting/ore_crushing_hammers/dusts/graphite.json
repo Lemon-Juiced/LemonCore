@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:ingots/graphite"
+      "tag": "forge:ingots/graphite"
     },
     {
       "tag": "forge:ore_crushing_hammers"

@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "lemon_core:calorite_block",
+    "lemon_core:inanite_block",
     "lemon_core:insanite_block",
     "lemon_core:ostrum_block",
 

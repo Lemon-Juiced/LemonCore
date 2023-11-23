@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:gems/charged_certus_quartz"
+      "tag": "forge:gems/charged_certus_quartz"
     },
     {
       "tag": "forge:ore_crushing_hammers"

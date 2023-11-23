@@ -5,6 +5,7 @@
     "#forge:fragments/anglesite",
     "#forge:fragments/apatite",
     "#forge:fragments/benitoite",
+    "#forge:fragments/blutstein",
     "#forge:fragments/certus_quartz",
     "#forge:fragments/charged_certus_quartz",
     "#forge:fragments/cinnabar",
@@ -12,15 +13,20 @@
     "#forge:fragments/dimensional_shard",
     "#forge:fragments/emerald",
     "#forge:fragments/ender_pearl",
+    "#forge:fragments/ender_crystal",
     "#forge:fragments/fluix_crystal",
     "#forge:fragments/lapis_lazuli",
     "#forge:fragments/nether_quartz",
     "#forge:fragments/niter",
     "#forge:fragments/peridot",
+    "#forge:fragments/prescient_crystal",
+    "#forge:fragments/pulsating_crystal",
     "#forge:fragments/rose_quartz",
     "#forge:fragments/ruby",
     "#forge:fragments/sapphire",
     "#forge:fragments/silicon",
-    "#forge:fragments/sulfur"
+    "#forge:fragments/sulfur",
+    "#forge:fragments/umbralite",
+    "#forge:fragments/vibrant_crystal"
   ]
 }

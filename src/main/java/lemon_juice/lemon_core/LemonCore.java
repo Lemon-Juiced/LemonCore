@@ -1,8 +1,8 @@
 package lemon_juice.lemon_core;
 
-import lemon_juice.lemon_core.block.ModBlocks;
-import lemon_juice.lemon_core.creativetab.ModCreativeTabs;
-import lemon_juice.lemon_core.item.ModItems;
+import lemon_juice.lemon_core.block.LemonCoreBlocks;
+import lemon_juice.lemon_core.creativetab.LemonCoreCreativeTabs;
+import lemon_juice.lemon_core.item.LemonCoreItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,12 +20,12 @@ public class LemonCore {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register Items
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        LemonCoreItems.register(modEventBus);
+        LemonCoreBlocks.register(modEventBus);
 
         // Register Creative Tab
-        ModCreativeTabs.register(modEventBus);
-        modEventBus.addListener(ModCreativeTabs::registerTabs);
+        LemonCoreCreativeTabs.register(modEventBus);
+        modEventBus.addListener(LemonCoreCreativeTabs::registerTabs);
 
         modEventBus.addListener(this::commonSetup);
 

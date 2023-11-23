@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/zweiite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:zweiite_ingot",
+        "count": 9
+    }
+}

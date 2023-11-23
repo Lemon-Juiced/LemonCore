@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "gems": "forge:gems/fluix_crystal"
+      "tag": "forge:gems/fluix"
     },
     {
       "tag": "forge:ore_crushing_hammers"

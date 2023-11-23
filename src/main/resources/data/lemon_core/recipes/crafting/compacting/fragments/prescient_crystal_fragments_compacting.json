@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:fragments/prescient_crystal"
+    }
+  },
+  "result": {
+    "item": "lemon_core:prescient_crystal",
+    "count": 1
+  }
+}

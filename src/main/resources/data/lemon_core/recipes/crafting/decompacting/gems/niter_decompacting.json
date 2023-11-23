@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:niter"
+            "tag": "forge:gems/niter"
         }
     ],
     "result": {

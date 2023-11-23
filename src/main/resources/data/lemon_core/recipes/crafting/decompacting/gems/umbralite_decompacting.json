@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:gems/umbralite"
+        }
+    ],
+    "result": {
+        "item": "lemon_core:umbralite_fragment",
+        "count": 9
+    }
+}

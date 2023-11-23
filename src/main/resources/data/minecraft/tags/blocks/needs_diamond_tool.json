@@ -11,6 +11,9 @@
     "lemon_core:enderium_block",
     "lemon_core:vibrant_alloy_block",
 
-    "lemon_core:dimensional_shard_block"
+    "lemon_core:ender_crystal_block",
+    "lemon_core:dimensional_shard_block",
+    "lemon_core:prescient_crystal_block",
+    "lemon_core:vibrant_crystal_block"
   ]
 }

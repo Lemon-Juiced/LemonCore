@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/blutstein"
+    },
+    {
+      "tag": "forge:ore_crushing_hammers"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:blutstein_dust",
+    "count": 1
+  }
+}
